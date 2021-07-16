@@ -28,5 +28,5 @@ jobs:
       # check files and directories
       - name: Check Client Dir
         run: |
-          cd client
-          pwd
+          cd /home/runner/work/halohalo/halohalo/client
+          cd /home/runner/work/halohalo/halohalo/clients
