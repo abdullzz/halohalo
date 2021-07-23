@@ -6,3 +6,3127 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 31ms (Views: 13.1ms | ActiveRecord: 0.0ms | Allocations: 4178)
 
 
+Started GET "/" for 127.0.0.1 at 2021-07-23 18:49:30 +0700
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/abdullah/.rvm/gems/ruby-2.5.8/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/abdullah/.rvm/gems/ruby-2.5.8/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 9.5ms | Allocations: 499)
+Completed 200 OK in 37ms (Views: 14.4ms | ActiveRecord: 0.0ms | Allocations: 4193)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 18:49:43 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 1.1ms | Allocations: 124)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/abdullah/Documents/learning/halohalo/client/public/packs
+[Webpacker] Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+
+[Webpacker] Hash: e2a8a876c5815bee1e21
+Version: webpack 4.46.0
+Time: 1796ms
+Built at: 07/23/2021 6:49:47 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-e421b4aa3f716bebdab1.js    125 KiB  application  [emitted] [immutable]  application
+js/application-e421b4aa3f716bebdab1.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-e421b4aa3f716bebdab1.js js/application-e421b4aa3f716bebdab1.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 4464.4ms | Allocations: 18409)
+Completed 200 OK in 4471ms (Views: 4468.9ms | ActiveRecord: 0.0ms | Allocations: 20013)
+
+
+Started GET "/" for 127.0.0.1 at 2021-07-23 19:08:01 +0700
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/abdullah/.rvm/gems/ruby-2.5.8/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/abdullah/.rvm/gems/ruby-2.5.8/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 8.1ms | Allocations: 499)
+Completed 200 OK in 31ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 4251)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 19:08:08 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.4ms | Allocations: 124)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/abdullah/Documents/learning/halohalo/client/public/packs
+[Webpacker] Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+
+[Webpacker] Hash: 72423e96d6a79f979211
+Version: webpack 4.46.0
+Time: 731ms
+Built at: 07/23/2021 7:08:11 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-4438c0f049e5480df8f8.js    126 KiB  application  [emitted] [immutable]  application
+js/application-4438c0f049e5480df8f8.js.map    140 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-4438c0f049e5480df8f8.js js/application-4438c0f049e5480df8f8.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 1.2 KiB {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 2923.5ms | Allocations: 17628)
+Completed 200 OK in 2928ms (Views: 2926.4ms | ActiveRecord: 0.0ms | Allocations: 19047)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 19:08:37 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 1.1ms | Allocations: 151)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 3711)
+Completed 200 OK in 20ms (Views: 17.8ms | ActiveRecord: 0.0ms | Allocations: 4944)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 19:13:28 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.8ms | Allocations: 174)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 3732)
+Completed 200 OK in 14ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 4960)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 19:13:33 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 3415)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms | Allocations: 3904)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 19:15:27 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.6ms | Allocations: 175)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 3735)
+Completed 200 OK in 19ms (Views: 17.0ms | Allocations: 4968)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 19:21:59 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.8ms | Allocations: 179)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 3738)
+Completed 200 OK in 17ms (Views: 13.5ms | Allocations: 4972)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 19:22:45 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 3413)
+Completed 200 OK in 9ms (Views: 8.1ms | Allocations: 3891)
+
+
+Started POST "/examples/actions/confirmation.php" for 127.0.0.1 at 2021-07-23 19:22:56 +0700
+  
+ActionController::RoutingError (No route matches [POST] "/examples/actions/confirmation.php"):
+  
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 19:23:16 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.4ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.1ms | Allocations: 3550)
+Completed 200 OK in 26ms (Views: 23.7ms | Allocations: 4099)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 19:25:57 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.6ms | Allocations: 245)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 3798)
+Completed 200 OK in 12ms (Views: 11.0ms | Allocations: 4953)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 19:26:01 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.5ms | Allocations: 173)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 3547)
+Completed 200 OK in 15ms (Views: 12.8ms | Allocations: 4155)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 19:26:29 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.7ms | Allocations: 174)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 3732)
+Completed 200 OK in 13ms (Views: 11.3ms | Allocations: 4960)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 19:26:38 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.6ms | Allocations: 238)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 3604)
+Completed 200 OK in 15ms (Views: 13.9ms | Allocations: 4191)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 19:26:40 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 3413)
+Completed 200 OK in 9ms (Views: 8.8ms | Allocations: 3901)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 19:26:42 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 3405)
+Completed 200 OK in 11ms (Views: 10.0ms | Allocations: 3891)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 19:26:44 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 3414)
+Completed 200 OK in 7ms (Views: 6.1ms | Allocations: 3901)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 19:26:49 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 3406)
+Completed 200 OK in 13ms (Views: 12.8ms | Allocations: 3891)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 19:26:51 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 3416)
+Completed 200 OK in 8ms (Views: 7.4ms | Allocations: 3903)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 19:26:52 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 3405)
+Completed 200 OK in 10ms (Views: 9.8ms | Allocations: 3890)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 19:26:54 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 3413)
+Completed 200 OK in 9ms (Views: 8.5ms | Allocations: 3899)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 19:26:55 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 3405)
+Completed 200 OK in 16ms (Views: 15.5ms | Allocations: 3890)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 19:26:56 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 3413)
+Completed 200 OK in 14ms (Views: 12.6ms | Allocations: 3900)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 19:26:58 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 3406)
+Completed 200 OK in 6ms (Views: 5.5ms | Allocations: 3892)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 19:42:55 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 3414)
+Completed 200 OK in 10ms (Views: 9.3ms | Allocations: 3901)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 19:43:20 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.7ms | Allocations: 242)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 3793)
+Completed 200 OK in 13ms (Views: 11.4ms | Allocations: 4948)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 19:44:21 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.9ms | Allocations: 238)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 3788)
+Completed 200 OK in 17ms (Views: 15.7ms | Allocations: 4928)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 19:44:56 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 3405)
+Completed 200 OK in 9ms (Views: 8.2ms | Allocations: 3882)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 19:45:18 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.7ms | Allocations: 238)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 3788)
+Completed 200 OK in 18ms (Views: 16.0ms | Allocations: 4929)
+
+
+Started POST "/examples/actions/confirmation.php" for 127.0.0.1 at 2021-07-23 19:45:28 +0700
+  
+ActionController::RoutingError (No route matches [POST] "/examples/actions/confirmation.php"):
+  
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 19:45:31 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 3406)
+Completed 200 OK in 21ms (Views: 20.7ms | Allocations: 3884)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 19:45:39 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 3405)
+Completed 200 OK in 9ms (Views: 8.2ms | Allocations: 3881)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 19:59:11 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.7ms | Allocations: 242)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 3772)
+Completed 200 OK in 15ms (Views: 13.8ms | Allocations: 4924)
+
+
+Started GET "/auth/privacy" for 127.0.0.1 at 2021-07-23 20:01:24 +0700
+Processing by AuthController#privacy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/privacy.html.erb within layouts/application
+  Rendered auth/privacy.html.erb within layouts/application (Duration: 0.5ms | Allocations: 127)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 3494)
+Completed 200 OK in 10ms (Views: 8.6ms | Allocations: 4074)
+
+
+Started GET "/auth/terms" for 127.0.0.1 at 2021-07-23 20:01:30 +0700
+Processing by AuthController#terms as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/terms.html.erb within layouts/application
+  Rendered auth/terms.html.erb within layouts/application (Duration: 1.1ms | Allocations: 214)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 3580)
+Completed 200 OK in 12ms (Views: 10.1ms | Allocations: 4159)
+
+
+Started GET "/auth/terms" for 127.0.0.1 at 2021-07-23 20:01:37 +0700
+Processing by AuthController#terms as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/terms.html.erb within layouts/application
+  Rendered auth/terms.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 3405)
+Completed 200 OK in 7ms (Views: 6.9ms | Allocations: 3882)
+
+
+Started GET "/auth/terms" for 127.0.0.1 at 2021-07-23 20:01:57 +0700
+Processing by AuthController#terms as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/terms.html.erb within layouts/application
+  Rendered auth/terms.html.erb within layouts/application (Duration: 1.8ms | Allocations: 207)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 3757)
+Completed 200 OK in 14ms (Views: 13.0ms | Allocations: 4901)
+
+
+Started GET "/auth/terms" for 127.0.0.1 at 2021-07-23 20:03:31 +0700
+Processing by AuthController#terms as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/terms.html.erb within layouts/application
+  Rendered auth/terms.html.erb within layouts/application (Duration: 0.3ms | Allocations: 40)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/abdullah/Documents/learning/halohalo/client/public/packs
+[Webpacker] Hash: e2a8a876c5815bee1e21
+Version: webpack 4.46.0
+Time: 517ms
+Built at: 07/23/2021 8:03:34 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-e421b4aa3f716bebdab1.js    125 KiB  application  [emitted] [immutable]  application
+js/application-e421b4aa3f716bebdab1.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-e421b4aa3f716bebdab1.js js/application-e421b4aa3f716bebdab1.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 2546.4ms | Allocations: 4834)
+Completed 200 OK in 2550ms (Views: 2548.4ms | Allocations: 5311)
+
+
+Started GET "/auth/terms" for 127.0.0.1 at 2021-07-23 20:04:14 +0700
+Processing by AuthController#terms as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/terms.html.erb within layouts/application
+  Rendered auth/terms.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 3618)
+Completed 200 OK in 10ms (Views: 9.0ms | Allocations: 4094)
+
+
+Started GET "/auth/terms" for 127.0.0.1 at 2021-07-23 20:04:15 +0700
+Processing by AuthController#terms as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/terms.html.erb within layouts/application
+  Rendered auth/terms.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 3409)
+Completed 200 OK in 5ms (Views: 4.9ms | Allocations: 3886)
+
+
+Started GET "/auth/terms" for 127.0.0.1 at 2021-07-23 20:04:55 +0700
+Processing by AuthController#terms as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/terms.html.erb within layouts/application
+  Rendered auth/terms.html.erb within layouts/application (Duration: 1.1ms | Allocations: 212)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 3763)
+Completed 200 OK in 14ms (Views: 12.5ms | Allocations: 4909)
+
+
+Started GET "/auth/privacy" for 127.0.0.1 at 2021-07-23 20:04:59 +0700
+Processing by AuthController#privacy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/privacy.html.erb within layouts/application
+  Rendered auth/privacy.html.erb within layouts/application (Duration: 1.5ms | Allocations: 210)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 3576)
+Completed 200 OK in 8ms (Views: 7.5ms | Allocations: 4155)
+
+
+Started GET "/auth/privacy" for 127.0.0.1 at 2021-07-23 20:07:51 +0700
+Processing by AuthController#privacy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/privacy.html.erb within layouts/application
+  Rendered auth/privacy.html.erb within layouts/application (Duration: 1.1ms | Allocations: 208)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 3758)
+Completed 200 OK in 20ms (Views: 16.8ms | Allocations: 4902)
+
+
+Started GET "/auth/terms" for 127.0.0.1 at 2021-07-23 20:07:52 +0700
+Processing by AuthController#terms as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/terms.html.erb within layouts/application
+  Rendered auth/terms.html.erb within layouts/application (Duration: 1.8ms | Allocations: 243)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 3609)
+Completed 200 OK in 11ms (Views: 9.4ms | Allocations: 4187)
+
+
+Started GET "/auth/privacy" for 127.0.0.1 at 2021-07-23 20:07:58 +0700
+Processing by AuthController#privacy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/privacy.html.erb within layouts/application
+  Rendered auth/privacy.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 3406)
+Completed 200 OK in 9ms (Views: 8.0ms | Allocations: 3884)
+
+
+Started GET "/auth/terms" for 127.0.0.1 at 2021-07-23 20:07:59 +0700
+Processing by AuthController#terms as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/terms.html.erb within layouts/application
+  Rendered auth/terms.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 3405)
+Completed 200 OK in 8ms (Views: 7.3ms | Allocations: 3881)
+
+
+Started GET "/auth/privacy" for 127.0.0.1 at 2021-07-23 20:08:00 +0700
+Processing by AuthController#privacy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/privacy.html.erb within layouts/application
+  Rendered auth/privacy.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 3406)
+Completed 200 OK in 9ms (Views: 7.7ms | Allocations: 3883)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 20:08:01 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.7ms | Allocations: 242)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 3608)
+Completed 200 OK in 9ms (Views: 8.4ms | Allocations: 4186)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 20:10:54 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 1.2ms | Allocations: 237)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.1ms | Allocations: 4937)
+Completed 500 Internal Server Error in 23ms (Allocations: 6051)
+
+
+  
+ActionView::Template::Error (Missing partial layouts/_navbar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/abdullah/Documents/learning/halohalo/client/app/views"
+  * "/home/abdullah/.rvm/gems/ruby-2.5.8/gems/actiontext-6.1.4/app/views"
+  * "/home/abdullah/.rvm/gems/ruby-2.5.8/gems/actionmailbox-6.1.4/app/views"
+):
+    11:   </head>
+    12: 
+    13:   <body>
+    14:     <%= render "layouts/navbar" %>
+    15:     <%= yield %>
+    16:     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    17:     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  
+app/views/layouts/application.html.erb:14
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 20:11:31 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.7ms | Allocations: 237)
+[Webpacker] Everything's up-to-date. Nothing to do
+DEPRECATION WARNING: Rendering actions with '.' in the name is deprecated: layouts/_navbar.html.erb (called from _app_views_layouts_application_html_erb__1618240770526470121_69945692227200 at /home/abdullah/Documents/learning/halohalo/client/app/views/layouts/application.html.erb:14)
+DEPRECATION WARNING: Rendering actions with '.' in the name is deprecated: layouts/_navbar.html.erb (called from _app_views_layouts_application_html_erb__1618240770526470121_69945692227200 at /home/abdullah/Documents/learning/halohalo/client/app/views/layouts/application.html.erb:14)
+DEPRECATION WARNING: Rendering actions with '.' in the name is deprecated: layouts/_navbar.html.erb (called from _app_views_layouts_application_html_erb__1618240770526470121_69945692227200 at /home/abdullah/Documents/learning/halohalo/client/app/views/layouts/application.html.erb:14)
+  Rendered layout layouts/application.html.erb (Duration: 18.4ms | Allocations: 5528)
+Completed 500 Internal Server Error in 23ms (Allocations: 6638)
+
+
+  
+ActionView::Template::Error (Missing partial layouts/_navbar.html.erb with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/abdullah/Documents/learning/halohalo/client/app/views"
+  * "/home/abdullah/.rvm/gems/ruby-2.5.8/gems/actiontext-6.1.4/app/views"
+  * "/home/abdullah/.rvm/gems/ruby-2.5.8/gems/actionmailbox-6.1.4/app/views"
+):
+    11:   </head>
+    12: 
+    13:   <body>
+    14:     <%= render "layouts/navbar.html.erb" %>
+    15:     <%= yield %>
+    16:     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    17:     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  
+app/views/layouts/application.html.erb:14
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 20:12:02 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.6ms | Allocations: 237)
+[Webpacker] Everything's up-to-date. Nothing to do
+DEPRECATION WARNING: Rendering actions with '.' in the name is deprecated: layouts/__navbar.html.erb (called from _app_views_layouts_application_html_erb__1618240770526470121_46999067167820 at /home/abdullah/Documents/learning/halohalo/client/app/views/layouts/application.html.erb:14)
+DEPRECATION WARNING: Rendering actions with '.' in the name is deprecated: layouts/__navbar.html.erb (called from _app_views_layouts_application_html_erb__1618240770526470121_46999067167820 at /home/abdullah/Documents/learning/halohalo/client/app/views/layouts/application.html.erb:14)
+DEPRECATION WARNING: Rendering actions with '.' in the name is deprecated: layouts/__navbar.html.erb (called from _app_views_layouts_application_html_erb__1618240770526470121_46999067167820 at /home/abdullah/Documents/learning/halohalo/client/app/views/layouts/application.html.erb:14)
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 5515)
+Completed 500 Internal Server Error in 16ms (Allocations: 6625)
+
+
+  
+ActionView::Template::Error (Missing partial layouts/__navbar.html.erb with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/abdullah/Documents/learning/halohalo/client/app/views"
+  * "/home/abdullah/.rvm/gems/ruby-2.5.8/gems/actiontext-6.1.4/app/views"
+  * "/home/abdullah/.rvm/gems/ruby-2.5.8/gems/actionmailbox-6.1.4/app/views"
+):
+    11:   </head>
+    12: 
+    13:   <body>
+    14:     <%= render "layouts/_navbar.html.erb" %>
+    15:     <%= yield %>
+    16:     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    17:     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  
+app/views/layouts/application.html.erb:14
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 20:12:05 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 4268)
+Completed 500 Internal Server Error in 8ms (Allocations: 4710)
+
+
+  
+ActionView::Template::Error (Missing partial layouts/__navbar.html.erb with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/abdullah/Documents/learning/halohalo/client/app/views"
+  * "/home/abdullah/.rvm/gems/ruby-2.5.8/gems/actiontext-6.1.4/app/views"
+  * "/home/abdullah/.rvm/gems/ruby-2.5.8/gems/actionmailbox-6.1.4/app/views"
+):
+    11:   </head>
+    12: 
+    13:   <body>
+    14:     <%= render "layouts/_navbar.html.erb" %>
+    15:     <%= yield %>
+    16:     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    17:     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  
+app/views/layouts/application.html.erb:14
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 20:12:14 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.7ms | Allocations: 237)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 155)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 4174)
+Completed 200 OK in 16ms (Views: 14.7ms | Allocations: 5319)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 20:12:26 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 3528)
+Completed 200 OK in 14ms (Views: 12.8ms | Allocations: 4014)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 20:12:27 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 3525)
+Completed 200 OK in 11ms (Views: 10.4ms | Allocations: 4011)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 20:12:28 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 3526)
+Completed 200 OK in 9ms (Views: 8.3ms | Allocations: 4011)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 20:12:29 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 3525)
+Completed 200 OK in 8ms (Views: 7.2ms | Allocations: 4010)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 20:13:41 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.7ms | Allocations: 242)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 153)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 4173)
+Completed 200 OK in 16ms (Views: 14.4ms | Allocations: 5319)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 20:15:10 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.7ms | Allocations: 237)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 153)
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 4169)
+Completed 200 OK in 16ms (Views: 14.3ms | Allocations: 5314)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 20:15:12 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 3528)
+Completed 200 OK in 8ms (Views: 7.4ms | Allocations: 4014)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 20:15:59 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.7ms | Allocations: 240)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 156)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 4175)
+Completed 200 OK in 16ms (Views: 15.0ms | Allocations: 5321)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 20:16:45 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.9ms | Allocations: 237)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 142)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 4157)
+Completed 200 OK in 15ms (Views: 13.7ms | Allocations: 5297)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 20:16:56 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.3ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 35.4ms | Allocations: 3528)
+Completed 200 OK in 42ms (Views: 39.9ms | Allocations: 4005)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 20:18:58 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.7ms | Allocations: 238)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 142)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 4158)
+Completed 200 OK in 15ms (Views: 13.0ms | Allocations: 5304)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 20:19:03 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 3529)
+Completed 200 OK in 9ms (Views: 8.7ms | Allocations: 4015)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 20:19:04 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 3525)
+Completed 200 OK in 8ms (Views: 7.3ms | Allocations: 4010)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 20:19:05 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 3526)
+Completed 200 OK in 9ms (Views: 8.7ms | Allocations: 4003)
+
+
+Started GET "/auth/registe" for 127.0.0.1 at 2021-07-23 20:19:08 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/auth/registe"):
+  
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 20:19:10 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 3526)
+Completed 200 OK in 8ms (Views: 7.3ms | Allocations: 4003)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 20:19:11 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 3526)
+Completed 200 OK in 8ms (Views: 7.6ms | Allocations: 4002)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 20:19:13 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.3ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 3526)
+Completed 200 OK in 13ms (Views: 12.7ms | Allocations: 4003)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 20:19:13 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 3526)
+Completed 200 OK in 16ms (Views: 14.6ms | Allocations: 4003)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 20:19:15 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 3525)
+Completed 200 OK in 12ms (Views: 11.3ms | Allocations: 4001)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 20:19:17 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 3525)
+Completed 200 OK in 6ms (Views: 5.8ms | Allocations: 4010)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 20:21:05 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.6ms | Allocations: 242)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.7ms | Allocations: 165)
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 4185)
+Completed 200 OK in 16ms (Views: 15.1ms | Allocations: 5331)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 20:21:15 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.9ms | Allocations: 237)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 164)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 4180)
+Completed 200 OK in 15ms (Views: 13.2ms | Allocations: 5321)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 20:21:38 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.6ms | Allocations: 240)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.9ms | Allocations: 165)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 4184)
+Completed 200 OK in 14ms (Views: 12.3ms | Allocations: 5330)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 20:22:01 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.8ms | Allocations: 237)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.7ms | Allocations: 165)
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 4180)
+Completed 200 OK in 18ms (Views: 16.7ms | Allocations: 5321)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 20:22:40 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.7ms | Allocations: 237)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 166)
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 4180)
+Completed 200 OK in 15ms (Views: 13.9ms | Allocations: 5320)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 20:22:47 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.9ms | Allocations: 238)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 169)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 4185)
+Completed 200 OK in 15ms (Views: 13.6ms | Allocations: 5331)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 20:22:58 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 1.2ms | Allocations: 237)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 169)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 4184)
+Completed 200 OK in 15ms (Views: 13.1ms | Allocations: 5325)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 20:22:59 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 3529)
+Completed 200 OK in 8ms (Views: 7.0ms | Allocations: 4007)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 20:23:17 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.9ms | Allocations: 242)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 169)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 4190)
+Completed 200 OK in 14ms (Views: 12.8ms | Allocations: 5336)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 20:23:48 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.7ms | Allocations: 237)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 169)
+  Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 4183)
+Completed 200 OK in 19ms (Views: 17.3ms | Allocations: 5323)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 20:25:02 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.6ms | Allocations: 238)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 168)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 4184)
+Completed 200 OK in 17ms (Views: 15.2ms | Allocations: 5330)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 20:25:24 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 1.2ms | Allocations: 237)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 172)
+  Rendered layout layouts/application.html.erb (Duration: 15.1ms | Allocations: 4188)
+Completed 200 OK in 18ms (Views: 17.2ms | Allocations: 5329)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 20:25:35 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.9ms | Allocations: 237)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 169)
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 4184)
+Completed 200 OK in 17ms (Views: 15.2ms | Allocations: 5330)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 20:27:51 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 1.5ms | Allocations: 238)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 168)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 4185)
+Completed 200 OK in 14ms (Views: 11.9ms | Allocations: 5331)
+
+
+Started GET "/auth/register?page=logout" for 127.0.0.1 at 2021-07-23 20:27:54 +0700
+Processing by AuthController#register as HTML
+  Parameters: {"page"=>"logout"}
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 4293)
+Completed 200 OK in 10ms (Views: 9.3ms | Allocations: 4779)
+
+
+Started GET "/auth/register?page=logout" for 127.0.0.1 at 2021-07-23 20:28:14 +0700
+Processing by AuthController#register as HTML
+  Parameters: {"page"=>"logout"}
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 1.0ms | Allocations: 238)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 169)
+  Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 4185)
+Completed 200 OK in 17ms (Views: 15.6ms | Allocations: 5331)
+
+
+Started GET "/auth/register?page=logout" for 127.0.0.1 at 2021-07-23 20:30:26 +0700
+Processing by AuthController#register as HTML
+  Parameters: {"page"=>"logout"}
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 1.1ms | Allocations: 237)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 182)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 4198)
+Completed 200 OK in 16ms (Views: 14.4ms | Allocations: 5339)
+
+
+Started GET "/auth/register?page=logout" for 127.0.0.1 at 2021-07-23 20:30:49 +0700
+Processing by AuthController#register as HTML
+  Parameters: {"page"=>"logout"}
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 3529)
+Completed 200 OK in 10ms (Views: 9.3ms | Allocations: 4006)
+
+
+Started GET "/auth/register?page=logout" for 127.0.0.1 at 2021-07-23 20:30:53 +0700
+Processing by AuthController#register as HTML
+  Parameters: {"page"=>"logout"}
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.5ms | Allocations: 237)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.8ms | Allocations: 178)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 4193)
+Completed 200 OK in 11ms (Views: 9.9ms | Allocations: 5339)
+
+
+Started GET "/auth/register?page=logout" for 127.0.0.1 at 2021-07-23 20:33:14 +0700
+Processing by AuthController#register as HTML
+  Parameters: {"page"=>"logout"}
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 1.2ms | Allocations: 237)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 177)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 4193)
+Completed 200 OK in 18ms (Views: 16.1ms | Allocations: 5339)
+
+
+Started GET "/auth/register?page=logout" for 127.0.0.1 at 2021-07-23 20:37:24 +0700
+Processing by AuthController#register as HTML
+  Parameters: {"page"=>"logout"}
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.8ms | Allocations: 238)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 149)
+  Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 4165)
+Completed 200 OK in 18ms (Views: 17.0ms | Allocations: 5311)
+
+
+Started GET "/auth/register?page=logout" for 127.0.0.1 at 2021-07-23 20:40:58 +0700
+Processing by AuthController#register as HTML
+  Parameters: {"page"=>"logout"}
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.5ms | Allocations: 242)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 161)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 4183)
+Completed 200 OK in 14ms (Views: 12.4ms | Allocations: 5329)
+
+
+Started GET "/auth/register?page=logout" for 127.0.0.1 at 2021-07-23 20:41:23 +0700
+Processing by AuthController#register as HTML
+  Parameters: {"page"=>"logout"}
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 1.0ms | Allocations: 237)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 161)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 4176)
+Completed 200 OK in 13ms (Views: 11.9ms | Allocations: 5322)
+
+
+Started GET "/auth/register?page=logout" for 127.0.0.1 at 2021-07-23 20:41:24 +0700
+Processing by AuthController#register as HTML
+  Parameters: {"page"=>"logout"}
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 4295)
+Completed 200 OK in 10ms (Views: 9.7ms | Allocations: 4781)
+
+
+Started GET "/auth/register?page=logout" for 127.0.0.1 at 2021-07-23 20:50:32 +0700
+Processing by AuthController#register as HTML
+  Parameters: {"page"=>"logout"}
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.8ms | Allocations: 237)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | Allocations: 148)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 4164)
+Completed 200 OK in 14ms (Views: 12.6ms | Allocations: 5310)
+
+
+Started GET "/auth/register?page=logout" for 127.0.0.1 at 2021-07-23 20:50:37 +0700
+Processing by AuthController#register as HTML
+  Parameters: {"page"=>"logout"}
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 1.3ms | Allocations: 240)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 148)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 4167)
+Completed 200 OK in 17ms (Views: 12.8ms | Allocations: 5313)
+
+
+Started GET "/auth/register?page=logout" for 127.0.0.1 at 2021-07-23 20:50:55 +0700
+Processing by AuthController#register as HTML
+  Parameters: {"page"=>"logout"}
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.8ms | Allocations: 238)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 149)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 4166)
+Completed 200 OK in 16ms (Views: 14.6ms | Allocations: 5312)
+
+
+Started GET "/auth/register?page=logout" for 127.0.0.1 at 2021-07-23 20:51:24 +0700
+Processing by AuthController#register as HTML
+  Parameters: {"page"=>"logout"}
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 1.5ms | Allocations: 238)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | Allocations: 151)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 4167)
+Completed 200 OK in 14ms (Views: 13.4ms | Allocations: 5313)
+
+
+Started GET "/auth/register?page=logout" for 127.0.0.1 at 2021-07-23 20:51:25 +0700
+Processing by AuthController#register as HTML
+  Parameters: {"page"=>"logout"}
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 3528)
+Completed 200 OK in 8ms (Views: 7.4ms | Allocations: 4005)
+
+
+Started GET "/auth/register?page=logout" for 127.0.0.1 at 2021-07-23 20:51:41 +0700
+Processing by AuthController#register as HTML
+  Parameters: {"page"=>"logout"}
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.8ms | Allocations: 237)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 151)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 4167)
+Completed 200 OK in 15ms (Views: 13.2ms | Allocations: 5313)
+
+
+Started GET "/auth/register?page=logout" for 127.0.0.1 at 2021-07-23 20:51:57 +0700
+Processing by AuthController#register as HTML
+  Parameters: {"page"=>"logout"}
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 1.1ms | Allocations: 242)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | Allocations: 145)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 4166)
+Completed 200 OK in 15ms (Views: 13.5ms | Allocations: 5312)
+
+
+Started GET "/auth/register?page=logout" for 127.0.0.1 at 2021-07-23 20:52:23 +0700
+Processing by AuthController#register as HTML
+  Parameters: {"page"=>"logout"}
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.9ms | Allocations: 238)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 145)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 4162)
+Completed 200 OK in 13ms (Views: 11.9ms | Allocations: 5308)
+
+
+Started GET "/auth/register?page=logout" for 127.0.0.1 at 2021-07-23 20:53:01 +0700
+Processing by AuthController#register as HTML
+  Parameters: {"page"=>"logout"}
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.7ms | Allocations: 238)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 145)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 4161)
+Completed 200 OK in 14ms (Views: 12.9ms | Allocations: 5307)
+
+
+Started GET "/auth/register?page=logout" for 127.0.0.1 at 2021-07-23 20:53:31 +0700
+Processing by AuthController#register as HTML
+  Parameters: {"page"=>"logout"}
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.8ms | Allocations: 237)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | Allocations: 145)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 4159)
+Completed 200 OK in 15ms (Views: 14.2ms | Allocations: 5299)
+
+
+Started GET "/auth/register?page=logout" for 127.0.0.1 at 2021-07-23 20:53:32 +0700
+Processing by AuthController#register as HTML
+  Parameters: {"page"=>"logout"}
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 3529)
+Completed 200 OK in 9ms (Views: 8.8ms | Allocations: 4007)
+
+
+Started GET "/auth/register?page=logout" for 127.0.0.1 at 2021-07-23 20:53:38 +0700
+Processing by AuthController#register as HTML
+  Parameters: {"page"=>"logout"}
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 3529)
+Completed 200 OK in 10ms (Views: 9.3ms | Allocations: 4006)
+
+
+Started GET "/auth/register?page=logout" for 127.0.0.1 at 2021-07-23 20:53:39 +0700
+Processing by AuthController#register as HTML
+  Parameters: {"page"=>"logout"}
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 3525)
+Completed 200 OK in 7ms (Views: 6.9ms | Allocations: 4010)
+
+
+Started GET "/auth/register?page=logout" for 127.0.0.1 at 2021-07-23 20:53:52 +0700
+Processing by AuthController#register as HTML
+  Parameters: {"page"=>"logout"}
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 3526)
+Completed 200 OK in 7ms (Views: 5.9ms | Allocations: 4003)
+
+
+Started GET "/auth/register?page=logout" for 127.0.0.1 at 2021-07-23 20:53:54 +0700
+Processing by AuthController#register as HTML
+  Parameters: {"page"=>"logout"}
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 3525)
+Completed 200 OK in 21ms (Views: 20.8ms | Allocations: 4010)
+
+
+Started GET "/auth/register?page=logout" for 127.0.0.1 at 2021-07-23 21:00:59 +0700
+Processing by AuthController#register as HTML
+  Parameters: {"page"=>"logout"}
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.7ms | Allocations: 242)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 145)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 4166)
+Completed 200 OK in 17ms (Views: 14.4ms | Allocations: 5312)
+
+
+Started GET "/auth/register?page=logout" for 127.0.0.1 at 2021-07-23 21:01:12 +0700
+Processing by AuthController#register as HTML
+  Parameters: {"page"=>"logout"}
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 2.2ms | Allocations: 237)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.3ms | Allocations: 148)
+  Rendered layout layouts/application.html.erb (Duration: 36.7ms | Allocations: 4165)
+Completed 200 OK in 47ms (Views: 43.7ms | Allocations: 5306)
+
+
+Started GET "/auth/register?page=logout" for 127.0.0.1 at 2021-07-23 21:01:58 +0700
+Processing by AuthController#register as HTML
+  Parameters: {"page"=>"logout"}
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 1.2ms | Allocations: 237)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 145)
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 4160)
+Completed 200 OK in 16ms (Views: 15.1ms | Allocations: 5306)
+
+
+Started GET "/auth/register?page=logout" for 127.0.0.1 at 2021-07-23 21:02:11 +0700
+Processing by AuthController#register as HTML
+  Parameters: {"page"=>"logout"}
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.8ms | Allocations: 237)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 145)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 4160)
+Completed 200 OK in 16ms (Views: 14.7ms | Allocations: 5301)
+
+
+Started GET "/auth/register?page=logout" for 127.0.0.1 at 2021-07-23 21:02:19 +0700
+Processing by AuthController#register as HTML
+  Parameters: {"page"=>"logout"}
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.8ms | Allocations: 237)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 4160)
+Completed 200 OK in 14ms (Views: 12.2ms | Allocations: 5300)
+
+
+Started GET "/auth/register?page=logout" for 127.0.0.1 at 2021-07-23 21:02:34 +0700
+Processing by AuthController#register as HTML
+  Parameters: {"page"=>"logout"}
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 1.1ms | Allocations: 237)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.7ms | Allocations: 148)
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 4164)
+Completed 200 OK in 20ms (Views: 18.0ms | Allocations: 5310)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:02:48 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.9ms | Allocations: 177)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 3672)
+Completed 200 OK in 12ms (Views: 10.7ms | Allocations: 4290)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:02:54 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 3529)
+Completed 200 OK in 11ms (Views: 9.9ms | Allocations: 4016)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:02:55 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 3533)
+Completed 200 OK in 9ms (Views: 8.4ms | Allocations: 4019)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:02:56 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 3526)
+Completed 200 OK in 8ms (Views: 7.4ms | Allocations: 4012)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:02:57 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 3533)
+Completed 200 OK in 9ms (Views: 8.4ms | Allocations: 4019)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:02:59 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 3525)
+Completed 200 OK in 13ms (Views: 12.7ms | Allocations: 4010)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:03:00 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 6.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 24.9ms | Allocations: 4299)
+Completed 200 OK in 28ms (Views: 26.7ms | Allocations: 4786)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:03:01 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.3ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 3526)
+Completed 200 OK in 12ms (Views: 11.7ms | Allocations: 4012)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:03:02 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 3534)
+Completed 200 OK in 9ms (Views: 8.0ms | Allocations: 4021)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:03:03 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 3525)
+Completed 200 OK in 9ms (Views: 8.7ms | Allocations: 4010)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:03:04 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 3534)
+Completed 200 OK in 10ms (Views: 8.9ms | Allocations: 4021)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:03:05 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 3526)
+Completed 200 OK in 9ms (Views: 7.9ms | Allocations: 4011)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:03:16 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.4ms | Allocations: 242)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 145)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 4166)
+Completed 200 OK in 11ms (Views: 9.6ms | Allocations: 5312)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:03:18 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 3529)
+Completed 200 OK in 9ms (Views: 7.8ms | Allocations: 4016)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:03:19 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.6ms | Allocations: 173)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 3668)
+Completed 200 OK in 9ms (Views: 8.3ms | Allocations: 4285)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:03:20 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 3526)
+Completed 200 OK in 13ms (Views: 12.3ms | Allocations: 4013)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:03:21 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 3533)
+Completed 200 OK in 9ms (Views: 8.7ms | Allocations: 4019)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:03:22 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 3526)
+Completed 200 OK in 10ms (Views: 9.0ms | Allocations: 4012)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:05:05 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 1.8ms | Allocations: 242)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.9ms | Allocations: 151)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 4172)
+Completed 200 OK in 15ms (Views: 14.0ms | Allocations: 5318)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:05:13 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 1.7ms | Allocations: 237)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | Allocations: 151)
+  Rendered layout layouts/application.html.erb (Duration: 18.4ms | Allocations: 4166)
+Completed 200 OK in 28ms (Views: 26.7ms | Allocations: 5307)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:05:17 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.3ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 3529)
+Completed 200 OK in 12ms (Views: 11.5ms | Allocations: 4016)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:05:18 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 1.0ms | Allocations: 173)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 15.8ms | Allocations: 4423)
+Completed 200 OK in 18ms (Views: 16.4ms | Allocations: 5039)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:05:44 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 1.5ms | Allocations: 173)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 151)
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | Allocations: 4109)
+Completed 200 OK in 19ms (Views: 16.4ms | Allocations: 5337)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:05:46 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.6ms | Allocations: 237)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 27.3ms | Allocations: 4494)
+Completed 200 OK in 29ms (Views: 28.4ms | Allocations: 5082)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:05:47 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 4286)
+Completed 200 OK in 12ms (Views: 11.4ms | Allocations: 4773)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:05:49 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 3526)
+Completed 200 OK in 12ms (Views: 11.2ms | Allocations: 4012)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:05:50 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 13.3ms | Allocations: 3533)
+Completed 200 OK in 15ms (Views: 13.9ms | Allocations: 4019)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:05:52 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 3526)
+Completed 200 OK in 9ms (Views: 8.4ms | Allocations: 4011)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:05:54 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 3534)
+Completed 200 OK in 9ms (Views: 8.5ms | Allocations: 4021)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:05:55 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 3525)
+Completed 200 OK in 12ms (Views: 11.2ms | Allocations: 4010)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:05:56 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 3534)
+Completed 200 OK in 12ms (Views: 11.5ms | Allocations: 4020)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:05:57 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 3526)
+Completed 200 OK in 11ms (Views: 10.2ms | Allocations: 4012)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:06:34 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 1.0ms | Allocations: 263)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 4192)
+Completed 200 OK in 13ms (Views: 12.2ms | Allocations: 5338)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:06:36 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 3528)
+Completed 200 OK in 9ms (Views: 8.3ms | Allocations: 4014)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:06:36 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.5ms | Allocations: 173)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 16.5ms | Allocations: 4413)
+Completed 200 OK in 20ms (Views: 18.7ms | Allocations: 5029)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:06:51 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.5ms | Allocations: 196)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 4132)
+Completed 200 OK in 14ms (Views: 12.3ms | Allocations: 5361)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:07:03 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 1.1ms | Allocations: 212)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | Allocations: 153)
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 4152)
+Completed 200 OK in 18ms (Views: 16.1ms | Allocations: 5381)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:07:06 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.7ms | Allocations: 256)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 3743)
+Completed 200 OK in 10ms (Views: 8.8ms | Allocations: 4332)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:07:07 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 4286)
+Completed 200 OK in 11ms (Views: 10.6ms | Allocations: 4773)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:07:09 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 3526)
+Completed 200 OK in 10ms (Views: 9.2ms | Allocations: 4012)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:07:10 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 3533)
+Completed 200 OK in 8ms (Views: 7.7ms | Allocations: 4019)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:07:11 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 3525)
+Completed 200 OK in 7ms (Views: 6.0ms | Allocations: 4010)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:07:12 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 3534)
+Completed 200 OK in 16ms (Views: 15.7ms | Allocations: 4021)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:08:13 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 3526)
+Completed 200 OK in 9ms (Views: 8.5ms | Allocations: 4012)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:08:17 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 3526)
+Completed 200 OK in 9ms (Views: 7.9ms | Allocations: 4012)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:08:19 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 3533)
+Completed 200 OK in 10ms (Views: 8.8ms | Allocations: 4019)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:08:22 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 3526)
+Completed 200 OK in 14ms (Views: 13.7ms | Allocations: 4012)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:08:23 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 3533)
+Completed 200 OK in 13ms (Views: 11.8ms | Allocations: 4019)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:08:30 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 17.0ms | Allocations: 3526)
+Completed 200 OK in 20ms (Views: 19.2ms | Allocations: 4011)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:08:31 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 3534)
+Completed 200 OK in 8ms (Views: 7.3ms | Allocations: 4021)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:08:32 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 3525)
+Completed 200 OK in 13ms (Views: 12.3ms | Allocations: 4011)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:08:33 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 3534)
+Completed 200 OK in 13ms (Views: 11.7ms | Allocations: 4021)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:08:43 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 3526)
+Completed 200 OK in 10ms (Views: 9.6ms | Allocations: 4012)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:08:43 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.3ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 3534)
+Completed 200 OK in 9ms (Views: 8.5ms | Allocations: 4020)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:08:45 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 3525)
+Completed 200 OK in 6ms (Views: 5.9ms | Allocations: 4011)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:08:47 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 3533)
+Completed 200 OK in 7ms (Views: 6.5ms | Allocations: 4019)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:08:49 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 3526)
+Completed 200 OK in 10ms (Views: 9.7ms | Allocations: 4011)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:08:50 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 3533)
+Completed 200 OK in 12ms (Views: 10.9ms | Allocations: 4020)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:08:53 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 3527)
+Completed 200 OK in 8ms (Views: 7.0ms | Allocations: 4013)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:08:56 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 3534)
+Completed 200 OK in 8ms (Views: 7.6ms | Allocations: 4021)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:08:57 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 3525)
+Completed 200 OK in 7ms (Views: 6.4ms | Allocations: 4011)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:08:59 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 3534)
+Completed 200 OK in 10ms (Views: 9.5ms | Allocations: 4020)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:09:02 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 3525)
+Completed 200 OK in 17ms (Views: 16.2ms | Allocations: 4011)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:09:03 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 20.3ms | Allocations: 3533)
+Completed 200 OK in 23ms (Views: 21.9ms | Allocations: 4019)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:09:05 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 3526)
+Completed 200 OK in 9ms (Views: 8.8ms | Allocations: 4012)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:09:06 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 3535)
+Completed 200 OK in 8ms (Views: 7.4ms | Allocations: 4022)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:09:09 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 3526)
+Completed 200 OK in 7ms (Views: 6.1ms | Allocations: 4012)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:11:45 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.7ms | Allocations: 261)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 4189)
+Completed 200 OK in 13ms (Views: 11.8ms | Allocations: 5335)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:12:11 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 1.0ms | Allocations: 255)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.7ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 4183)
+Completed 200 OK in 19ms (Views: 16.8ms | Allocations: 5323)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:13:30 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.7ms | Allocations: 255)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 4182)
+Completed 200 OK in 14ms (Views: 12.3ms | Allocations: 5323)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:14:52 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 1.0ms | Allocations: 257)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.7ms | Allocations: 151)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 4188)
+Completed 200 OK in 18ms (Views: 15.8ms | Allocations: 5334)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:15:55 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.7ms | Allocations: 254)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | Allocations: 151)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 4183)
+Completed 200 OK in 13ms (Views: 11.9ms | Allocations: 5324)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:17:58 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 3528)
+Completed 200 OK in 11ms (Views: 9.7ms | Allocations: 4006)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:18:40 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.7ms | Allocations: 256)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 4185)
+Completed 200 OK in 15ms (Views: 13.9ms | Allocations: 5333)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:18:46 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.7ms | Allocations: 210)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 16.5ms | Allocations: 4469)
+Completed 200 OK in 24ms (Views: 18.3ms | Allocations: 5086)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:18:49 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 3526)
+Completed 200 OK in 8ms (Views: 7.0ms | Allocations: 4013)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:18:57 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 3526)
+Completed 200 OK in 11ms (Views: 9.8ms | Allocations: 4012)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:18:58 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 3525)
+Completed 200 OK in 10ms (Views: 9.4ms | Allocations: 4010)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:18:59 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 3534)
+Completed 200 OK in 12ms (Views: 10.9ms | Allocations: 4021)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:19:00 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 3525)
+Completed 200 OK in 9ms (Views: 8.5ms | Allocations: 4011)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:19:37 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 1.6ms | Allocations: 259)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 4188)
+Completed 200 OK in 15ms (Views: 13.3ms | Allocations: 5342)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:19:38 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.6ms | Allocations: 214)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 3708)
+Completed 200 OK in 12ms (Views: 10.8ms | Allocations: 4325)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:19:38 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 3534)
+Completed 200 OK in 9ms (Views: 8.4ms | Allocations: 4013)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:19:53 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 1.0ms | Allocations: 217)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 4154)
+Completed 200 OK in 15ms (Views: 13.1ms | Allocations: 5388)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:19:55 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 3536)
+Completed 200 OK in 9ms (Views: 8.1ms | Allocations: 4014)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:20:12 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 1.3ms | Allocations: 213)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 4149)
+Completed 200 OK in 18ms (Views: 15.1ms | Allocations: 5378)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:20:32 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.3ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 3536)
+Completed 200 OK in 13ms (Views: 11.2ms | Allocations: 4014)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:20:59 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.8ms | Allocations: 236)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 153)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 4177)
+Completed 200 OK in 18ms (Views: 16.9ms | Allocations: 5411)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:21:05 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.5ms | Allocations: 252)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.7ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 4188)
+Completed 200 OK in 10ms (Views: 8.9ms | Allocations: 5422)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:21:57 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 2.5ms | Allocations: 255)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.7ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 21.9ms | Allocations: 4184)
+Completed 200 OK in 57ms (Views: 53.6ms | Allocations: 5339)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:23:02 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.7ms | Allocations: 251)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 16.2ms | Allocations: 3746)
+Completed 200 OK in 19ms (Views: 17.6ms | Allocations: 4364)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:23:29 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 1.0ms | Allocations: 251)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.7ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 4186)
+Completed 200 OK in 16ms (Views: 14.3ms | Allocations: 5414)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:23:30 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 3537)
+Completed 200 OK in 13ms (Views: 11.9ms | Allocations: 4016)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:23:42 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.7ms | Allocations: 256)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 4193)
+Completed 200 OK in 13ms (Views: 11.8ms | Allocations: 5427)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:24:15 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.9ms | Allocations: 252)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 28.6ms | Allocations: 4189)
+Completed 200 OK in 41ms (Views: 38.7ms | Allocations: 5424)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:24:22 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 1.0ms | Allocations: 251)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 4186)
+Completed 200 OK in 13ms (Views: 11.9ms | Allocations: 5414)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:25:58 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 1.1ms | Allocations: 254)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 4191)
+Completed 200 OK in 16ms (Views: 13.7ms | Allocations: 5425)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:26:33 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.8ms | Allocations: 252)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 4189)
+Completed 200 OK in 15ms (Views: 13.1ms | Allocations: 5423)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:27:11 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 1.6ms | Allocations: 257)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 12.4ms | Allocations: 4194)
+Completed 200 OK in 18ms (Views: 16.1ms | Allocations: 5428)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:27:23 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 2.7ms | Allocations: 256)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 13.8ms | Allocations: 4191)
+Completed 200 OK in 19ms (Views: 16.9ms | Allocations: 5419)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:27:53 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.8ms | Allocations: 259)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 3746)
+Completed 200 OK in 13ms (Views: 11.6ms | Allocations: 4335)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:27:54 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 3533)
+Completed 200 OK in 16ms (Views: 14.5ms | Allocations: 4020)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:27:56 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 27.4ms | Allocations: 3526)
+Completed 200 OK in 29ms (Views: 28.2ms | Allocations: 4012)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:27:57 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 3533)
+Completed 200 OK in 10ms (Views: 9.1ms | Allocations: 4019)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:27:58 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 3526)
+Completed 200 OK in 9ms (Views: 8.7ms | Allocations: 4012)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:28:29 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.8ms | Allocations: 255)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 153)
+  Rendered layout layouts/application.html.erb (Duration: 13.9ms | Allocations: 4186)
+Completed 200 OK in 18ms (Views: 16.3ms | Allocations: 5331)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:28:32 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 3529)
+Completed 200 OK in 10ms (Views: 9.3ms | Allocations: 4016)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:28:33 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.7ms | Allocations: 257)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 3751)
+Completed 200 OK in 12ms (Views: 10.2ms | Allocations: 4367)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:28:41 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.9ms | Allocations: 256)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 4192)
+Completed 200 OK in 14ms (Views: 12.3ms | Allocations: 5425)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:28:52 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 1.1ms | Allocations: 256)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 4192)
+Completed 200 OK in 15ms (Views: 13.1ms | Allocations: 5421)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:29:04 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.4ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 3537)
+Completed 200 OK in 16ms (Views: 14.4ms | Allocations: 4016)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:29:08 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.6ms | Allocations: 259)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 3746)
+Completed 200 OK in 9ms (Views: 8.3ms | Allocations: 4334)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:29:10 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 3533)
+Completed 200 OK in 10ms (Views: 8.7ms | Allocations: 4020)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:29:11 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 3526)
+Completed 200 OK in 11ms (Views: 9.3ms | Allocations: 4011)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:29:12 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 3533)
+Completed 200 OK in 8ms (Views: 7.3ms | Allocations: 4020)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:29:14 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 12.6ms | Allocations: 3526)
+Completed 200 OK in 16ms (Views: 14.9ms | Allocations: 4012)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:59:24 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 3526)
+Completed 200 OK in 14ms (Views: 12.9ms | Allocations: 4003)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:59:25 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 3526)
+Completed 200 OK in 18ms (Views: 17.5ms | Allocations: 4012)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 21:59:26 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 3533)
+Completed 200 OK in 11ms (Views: 10.4ms | Allocations: 4019)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:59:29 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 17.0ms | Allocations: 3526)
+Completed 200 OK in 20ms (Views: 18.8ms | Allocations: 4011)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:59:32 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 3525)
+Completed 200 OK in 5ms (Views: 4.7ms | Allocations: 4011)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 21:59:32 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.4ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 17.7ms | Allocations: 3526)
+Completed 200 OK in 19ms (Views: 18.6ms | Allocations: 4012)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 22:00:25 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.7ms | Allocations: 260)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 4189)
+Completed 200 OK in 13ms (Views: 11.7ms | Allocations: 5335)
+
+
+Started GET "/auth/terms" for 127.0.0.1 at 2021-07-23 22:00:29 +0700
+Processing by AuthController#terms as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/terms.html.erb within layouts/application
+  Rendered auth/terms.html.erb within layouts/application (Duration: 1.4ms | Allocations: 245)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 18.2ms | Allocations: 4506)
+Completed 200 OK in 20ms (Views: 19.3ms | Allocations: 5095)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 22:00:32 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.8ms | Allocations: 255)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 3749)
+Completed 200 OK in 10ms (Views: 9.0ms | Allocations: 4366)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 22:00:34 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.3ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 3526)
+Completed 200 OK in 13ms (Views: 12.0ms | Allocations: 4012)
+
+
+Started GET "/auth/privacy" for 127.0.0.1 at 2021-07-23 22:00:35 +0700
+Processing by AuthController#privacy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/privacy.html.erb within layouts/application
+  Rendered auth/privacy.html.erb within layouts/application (Duration: 1.0ms | Allocations: 211)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 3697)
+Completed 200 OK in 12ms (Views: 10.8ms | Allocations: 4285)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 22:00:43 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 3534)
+Completed 200 OK in 10ms (Views: 9.1ms | Allocations: 4022)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 22:00:45 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 3526)
+Completed 200 OK in 10ms (Views: 8.2ms | Allocations: 4012)
+
+
+Started GET "/auth/privacy" for 127.0.0.1 at 2021-07-23 22:00:46 +0700
+Processing by AuthController#privacy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/privacy.html.erb within layouts/application
+  Rendered auth/privacy.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 3526)
+Completed 200 OK in 16ms (Views: 15.4ms | Allocations: 4012)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 22:01:02 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 3534)
+Completed 200 OK in 8ms (Views: 7.3ms | Allocations: 4021)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 22:01:03 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 3525)
+Completed 200 OK in 12ms (Views: 11.6ms | Allocations: 4010)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 22:01:04 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 3534)
+Completed 200 OK in 13ms (Views: 11.0ms | Allocations: 4020)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 22:01:05 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 3525)
+Completed 200 OK in 12ms (Views: 11.6ms | Allocations: 4011)
+
+
+Started GET "/auth/privacy" for 127.0.0.1 at 2021-07-23 22:01:07 +0700
+Processing by AuthController#privacy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/privacy.html.erb within layouts/application
+  Rendered auth/privacy.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 3527)
+Completed 200 OK in 18ms (Views: 17.2ms | Allocations: 4013)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 22:01:08 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 15.4ms | Allocations: 3526)
+Completed 200 OK in 18ms (Views: 17.7ms | Allocations: 4012)
+
+
+Started GET "/auth/terms" for 127.0.0.1 at 2021-07-23 22:01:09 +0700
+Processing by AuthController#terms as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/terms.html.erb within layouts/application
+  Rendered auth/terms.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 3526)
+Completed 200 OK in 11ms (Views: 9.7ms | Allocations: 4012)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 22:01:10 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 7.8ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 24.5ms | Allocations: 3526)
+Completed 200 OK in 27ms (Views: 26.4ms | Allocations: 4012)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 22:03:04 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 1.3ms | Allocations: 260)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 4189)
+Completed 200 OK in 20ms (Views: 17.8ms | Allocations: 5334)
+
+
+Started GET "/auth/terms" for 127.0.0.1 at 2021-07-23 22:03:05 +0700
+Processing by AuthController#terms as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/terms.html.erb within layouts/application
+  Rendered auth/terms.html.erb within layouts/application (Duration: 0.6ms | Allocations: 242)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 3728)
+Completed 200 OK in 17ms (Views: 15.3ms | Allocations: 4307)
+
+
+Started GET "/auth/privacy" for 127.0.0.1 at 2021-07-23 22:03:07 +0700
+Processing by AuthController#privacy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/privacy.html.erb within layouts/application
+  Rendered auth/privacy.html.erb within layouts/application (Duration: 0.6ms | Allocations: 214)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 3701)
+Completed 200 OK in 11ms (Views: 10.0ms | Allocations: 4281)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 22:03:38 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 3525)
+Completed 200 OK in 14ms (Views: 13.1ms | Allocations: 4011)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 22:03:39 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.8ms | Allocations: 262)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 17.5ms | Allocations: 4529)
+Completed 200 OK in 26ms (Views: 25.2ms | Allocations: 5146)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 22:03:40 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 3525)
+Completed 200 OK in 13ms (Views: 11.7ms | Allocations: 4011)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 22:03:42 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 3534)
+Completed 200 OK in 8ms (Views: 7.5ms | Allocations: 4020)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 22:03:43 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 3525)
+Completed 200 OK in 9ms (Views: 8.7ms | Allocations: 4011)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 22:03:45 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 3534)
+Completed 200 OK in 19ms (Views: 18.1ms | Allocations: 4020)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 22:04:16 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 3526)
+Completed 200 OK in 10ms (Views: 8.8ms | Allocations: 4012)
+
+
+Started POST "/examples/actions/confirmation.php" for 127.0.0.1 at 2021-07-23 22:05:05 +0700
+  
+ActionController::RoutingError (No route matches [POST] "/examples/actions/confirmation.php"):
+  
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 22:05:07 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.5ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 3526)
+Completed 200 OK in 13ms (Views: 11.7ms | Allocations: 4002)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 22:05:10 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 3526)
+Completed 200 OK in 15ms (Views: 13.7ms | Allocations: 4012)
+
+
+Started POST "/examples/actions/confirmation.php" for 127.0.0.1 at 2021-07-23 22:05:17 +0700
+  
+ActionController::RoutingError (No route matches [POST] "/examples/actions/confirmation.php"):
+  
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-23 22:05:22 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 3526)
+Completed 200 OK in 8ms (Views: 7.6ms | Allocations: 4003)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 22:05:23 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 3534)
+Completed 200 OK in 15ms (Views: 14.1ms | Allocations: 4020)
+
+
+Started POST "/examples/actions/confirmation.php" for 127.0.0.1 at 2021-07-23 22:05:24 +0700
+  
+ActionController::RoutingError (No route matches [POST] "/examples/actions/confirmation.php"):
+  
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-23 22:05:26 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 3534)
+Completed 200 OK in 9ms (Views: 8.0ms | Allocations: 4012)
+
+
