@@ -7265,3 +7265,40 @@ Processing by SessionController#login as HTML
 Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 4458)
 
 
+Started GET "/user/dashboard" for 34.228.69.5 at 2021-08-02 06:20:41 +0700
+Cannot render console from ::ffff:10.42.144.238! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#dashboard as */*
+  Rendering layout layouts/application.html.erb
+  Rendering users/dashboard.html.erb within layouts/application
+Redirected to http://green-dragon-74.loca.lt/login
+  Rendered users/dashboard.html.erb within layouts/application (Duration: 1.4ms | Allocations: 126)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 16.1ms | Allocations: 3862)
+Completed 302 Found in 21ms (Views: 18.0ms | Allocations: 4435)
+
+
+Started GET "/login" for 34.228.69.5 at 2021-08-02 06:20:42 +0700
+Cannot render console from ::ffff:10.42.144.238! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by SessionController#login as */*
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 4.0ms | Allocations: 399)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 18.0ms | Allocations: 3975)
+Completed 200 OK in 22ms (Views: 19.8ms | Allocations: 4458)
+
+
+Started GET "/" for 34.228.69.5 at 2021-08-02 06:20:42 +0700
+Cannot render console from ::ffff:10.42.144.238! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by SessionController#login as */*
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 2.9ms | Allocations: 411)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | Allocations: 3987)
+Completed 200 OK in 16ms (Views: 14.4ms | Allocations: 4416)
+
+
