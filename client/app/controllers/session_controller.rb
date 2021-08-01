@@ -13,6 +13,12 @@ class SessionController < ApplicationController
   # def register
   #   @user = User.new
   # end
+  def login
+    if logged_in?
+      redirect_back(fallback_location: '/user/dashboard')
+    end
+  end
+
   def create
     user = User.find_by(username: params[:session][:username].downcase)
     if user && user.authenticate(params[:session][:password])
@@ -20,7 +26,7 @@ class SessionController < ApplicationController
       flash[:notice] = "Logged in successfully."
       redirect_to "/user/dashboard"
     else
-      flash.now[:alert] = "There was something wrong with your login details."
+      flash.now[:alert] = "Check Your Username and Password"
       render 'login'
     end
   end
