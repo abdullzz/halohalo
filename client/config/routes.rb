@@ -8,8 +8,8 @@ Rails.application.routes.draw do
   get '/login', to: 'session#login'
   post 'login', to: 'session#create'
   get 'logout', to: 'session#destroy'
-  get '/privacy', to: 'session#privacy'
-  get '/terms', to: 'session#terms'
+  get '/privacy', to: 'info#privacy'
+  get '/terms', to: 'info#terms'
   get '/user/profile', to: 'users#profile'
   get '/user/dashboard', to: 'users#dashboard'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
