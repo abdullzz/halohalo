@@ -11,6 +11,6 @@ Rails.application.routes.draw do
   get '/privacy', to: 'session#privacy'
   get '/terms', to: 'session#terms'
   get '/profile', to: 'users#profile'
-  get '/dashboard', to: 'users#dashboard'
+  get '/user/dashboard', to: 'users#dashboard'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
