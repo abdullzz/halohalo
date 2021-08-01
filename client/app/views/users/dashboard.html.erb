@@ -1,0 +1,5 @@
+<%if logged_in?%>
+  <h1>Welcome <%=current_user.username %> </h1>
+<%else%>
+  <%redirect_to '/login'%>
+<%end%>

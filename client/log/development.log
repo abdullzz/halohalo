@@ -3130,3 +3130,2920 @@ Processing by AuthController#login as HTML
 Completed 200 OK in 9ms (Views: 8.0ms | Allocations: 4012)
 
 
+Started GET "/" for 127.0.0.1 at 2021-07-25 23:33:44 +0700
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/abdullah/.rvm/gems/ruby-2.5.8/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/abdullah/.rvm/gems/ruby-2.5.8/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 9.9ms | Allocations: 499)
+Completed 200 OK in 36ms (Views: 14.1ms | ActiveRecord: 0.0ms | Allocations: 4251)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-07-25 23:33:52 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/login"):
+  
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-25 23:34:00 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.7ms | Allocations: 262)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 153)
+  Rendered layout layouts/application.html.erb (Duration: 20.7ms | Allocations: 6308)
+Completed 200 OK in 25ms (Views: 23.0ms | ActiveRecord: 0.0ms | Allocations: 7675)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-25 23:34:06 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.9ms | Allocations: 258)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 3746)
+Completed 200 OK in 10ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 4326)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-25 23:34:11 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.3ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 19.7ms | Allocations: 4291)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.0ms | Allocations: 4779)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-25 23:34:12 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.3ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 3526)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 4011)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-25 23:34:14 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 3533)
+Completed 200 OK in 13ms (Views: 11.3ms | ActiveRecord: 0.0ms | Allocations: 4019)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-25 23:34:16 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.3ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 3527)
+Completed 200 OK in 10ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 4014)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-25 23:34:17 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 3533)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 4019)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-25 23:34:18 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 3526)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 4011)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-25 23:34:18 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 3534)
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 4021)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-25 23:34:19 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 3525)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 4010)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-25 23:34:19 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.5ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 18.7ms | Allocations: 3534)
+Completed 200 OK in 23ms (Views: 20.6ms | ActiveRecord: 0.0ms | Allocations: 4021)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-25 23:34:19 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 3526)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 4011)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-25 23:34:20 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.4ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 22.3ms | Allocations: 3533)
+Completed 200 OK in 27ms (Views: 24.5ms | ActiveRecord: 0.0ms | Allocations: 4019)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-25 23:34:21 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 3525)
+Completed 200 OK in 12ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 4011)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-25 23:34:21 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 3533)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 4019)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-25 23:34:22 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 3526)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 4011)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-25 23:34:23 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 3533)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 4019)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-25 23:34:24 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 3525)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 4010)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-25 23:34:25 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 3534)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 4021)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-25 23:34:26 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 3526)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 4011)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-25 23:34:28 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 3533)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 4019)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-25 23:34:30 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 3533)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 4020)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-25 23:34:31 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 3525)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 4010)
+
+
+Started GET "/auth/login" for 127.0.0.1 at 2021-07-25 23:34:32 +0700
+Processing by AuthController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.4ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 3534)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 4020)
+
+
+Started GET "/auth/register" for 127.0.0.1 at 2021-07-25 23:34:35 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 3525)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 4010)
+
+
+Started GET "/" for 127.0.0.1 at 2021-07-25 23:53:13 +0700
+  
+ActiveRecord::NoDatabaseError (Unknown database 'halohalo_development'):
+  
+activerecord (6.1.4) lib/active_record/connection_adapters/mysql2_adapter.rb:43:in `rescue in new_client'
+activerecord (6.1.4) lib/active_record/connection_adapters/mysql2_adapter.rb:39:in `new_client'
+activerecord (6.1.4) lib/active_record/connection_adapters/mysql2_adapter.rb:23:in `mysql2_connection'
+activerecord (6.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `public_send'
+activerecord (6.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `new_connection'
+activerecord (6.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:926:in `checkout_new_connection'
+activerecord (6.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:905:in `try_to_checkout_new_connection'
+activerecord (6.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:866:in `acquire_connection'
+activerecord (6.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:588:in `checkout'
+activerecord (6.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:428:in `connection'
+activerecord (6.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:1128:in `retrieve_connection'
+activerecord (6.1.4) lib/active_record/connection_handling.rb:327:in `retrieve_connection'
+activerecord (6.1.4) lib/active_record/connection_handling.rb:283:in `connection'
+activerecord (6.1.4) lib/active_record/migration.rb:611:in `connection'
+activerecord (6.1.4) lib/active_record/migration.rb:606:in `build_watcher'
+activerecord (6.1.4) lib/active_record/migration.rb:588:in `block in call'
+activerecord (6.1.4) lib/active_record/migration.rb:587:in `synchronize'
+activerecord (6.1.4) lib/active_record/migration.rb:587:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.4) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.2) lib/mini_profiler/profiler.rb:384:in `call'
+webpacker (5.4.0) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.1.4) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+  [1m[35m (2.3ms)[0m  [1m[35mCREATE DATABASE `halohalo_development` DEFAULT CHARACTER SET `utf8`[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE DATABASE `halohalo_test` DEFAULT CHARACTER SET `utf8`[0m
+  [1m[35m (34.0ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY)[0m
+  [1m[35m (13.4ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT GET_LOCK('5122992937831723920', 0)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateUsers (20210725163709)
+  [1m[35m (14.2ms)[0m  [1m[35mCREATE TABLE `users` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `username` varchar(255), `password_digest` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.8ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20210725163709')[0m
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.5ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2021-07-25 16:54:04.140735', '2021-07-25 16:54:04.140735')[0m
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT RELEASE_LOCK('5122992937831723920')[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Started GET "/" for ::1 at 2021-07-26 00:23:40 +0700
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  
+SyntaxError (/home/abdullah/Documents/learning/halohalo/client/app/controllers/auth_controller.rb:15: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/auth_controller.rb:15: syntax error, unexpected end-of-input, expecting keyword_end
+app/controllers/auth_controller.rb:15: syntax error, unexpected end-of-input, expecting keyword_end
+app/controllers/auth_controller.rb:15: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/" for ::1 at 2021-07-26 00:24:43 +0700
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by AuthController#login as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  ↳ app/controllers/auth_controller.rb:3:in `login'
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 2.9ms | Allocations: 6524)
+
+
+  
+NoMethodError (undefined method `to' for #<AuthController:0x007f72b17c1930>
+Did you mean?  t):
+  
+app/controllers/auth_controller.rb:10:in `login'
+Started GET "/" for ::1 at 2021-07-26 00:25:11 +0700
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by AuthController#login as HTML
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  ↳ app/controllers/auth_controller.rb:3:in `login'
+Completed 500 Internal Server Error in 45ms (ActiveRecord: 4.3ms | Allocations: 6522)
+
+
+  
+NoMethodError (undefined method `to' for #<AuthController:0x007fd8ed7c5c18>
+Did you mean?  t):
+  
+app/controllers/auth_controller.rb:10:in `login'
+Started GET "/" for ::1 at 2021-07-26 00:25:21 +0700
+Processing by AuthController#login as HTML
+  [1m[36mUser Load (6.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  ↳ app/controllers/auth_controller.rb:3:in `login'
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 6.2ms | Allocations: 3166)
+
+
+  
+NoMethodError (undefined method `to' for #<AuthController:0x007fd8e001e8c8>
+Did you mean?  t):
+  
+app/controllers/auth_controller.rb:10:in `login'
+Started GET "/" for ::1 at 2021-07-26 00:25:25 +0700
+Processing by AuthController#login as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  ↳ app/controllers/auth_controller.rb:3:in `login'
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.7ms | Allocations: 265)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 153)
+  Rendered layout layouts/application.html.erb (Duration: 15.6ms | Allocations: 6312)
+Completed 200 OK in 25ms (Views: 17.2ms | ActiveRecord: 2.0ms | Allocations: 9395)
+
+
+Started GET "/auth/register" for ::1 at 2021-07-26 00:25:39 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/auth/register"):
+  
+Started GET "/auth/register" for ::1 at 2021-07-26 00:26:48 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/auth/register"):
+  
+Started GET "/" for ::1 at 2021-07-26 00:26:51 +0700
+Processing by AuthController#login as HTML
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  ↳ app/controllers/auth_controller.rb:3:in `login'
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.6ms | Allocations: 256)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 151)
+  Rendered layout layouts/application.html.erb (Duration: 18.2ms | Allocations: 4193)
+Completed 200 OK in 30ms (Views: 22.3ms | ActiveRecord: 1.6ms | Allocations: 6181)
+
+
+Started GET "/register" for ::1 at 2021-07-26 00:26:53 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 1.0ms | Allocations: 261)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 12.4ms | Allocations: 3758)
+Completed 200 OK in 25ms (Views: 13.7ms | ActiveRecord: 2.7ms | Allocations: 7830)
+
+
+Started GET "/auth/login" for ::1 at 2021-07-26 00:26:53 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/auth/login"):
+  
+Started GET "/register" for ::1 at 2021-07-26 00:27:17 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.9ms | Allocations: 255)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 151)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 4194)
+Completed 200 OK in 17ms (Views: 15.2ms | ActiveRecord: 0.0ms | Allocations: 5450)
+
+
+Started GET "/login" for ::1 at 2021-07-26 00:27:18 +0700
+Processing by AuthController#login as HTML
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  ↳ app/controllers/auth_controller.rb:3:in `login'
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.4ms | Allocations: 256)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 4367)
+Completed 200 OK in 14ms (Views: 9.6ms | ActiveRecord: 1.5ms | Allocations: 5754)
+
+
+Started GET "/register" for ::1 at 2021-07-26 00:27:20 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 3533)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.0ms | Allocations: 4035)
+
+
+Started GET "/login" for ::1 at 2021-07-26 00:27:20 +0700
+Processing by AuthController#login as HTML
+  [1m[36mUser Load (1.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  ↳ app/controllers/auth_controller.rb:3:in `login'
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.5ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 3534)
+Completed 200 OK in 15ms (Views: 9.1ms | ActiveRecord: 1.9ms | Allocations: 4785)
+
+
+Started GET "/register" for ::1 at 2021-07-26 00:27:22 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 3533)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 4034)
+
+
+Started GET "/register" for ::1 at 2021-07-26 01:26:58 +0700
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 1.2ms | Allocations: 524)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 153)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 6567)
+Completed 200 OK in 56ms (Views: 15.5ms | ActiveRecord: 3.2ms | Allocations: 15205)
+
+
+Started GET "/terms" for ::1 at 2021-07-26 01:27:00 +0700
+Processing by AuthController#terms as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/terms.html.erb within layouts/application
+  Rendered auth/terms.html.erb within layouts/application (Duration: 1.1ms | Allocations: 248)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 3736)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 4315)
+
+
+Started GET "/privacy" for ::1 at 2021-07-26 01:27:02 +0700
+Processing by AuthController#privacy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/privacy.html.erb within layouts/application
+  Rendered auth/privacy.html.erb within layouts/application (Duration: 0.6ms | Allocations: 211)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 3697)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 4274)
+
+
+Started GET "/login" for ::1 at 2021-07-26 01:28:34 +0700
+Processing by AuthController#login as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  ↳ app/controllers/auth_controller.rb:3:in `login'
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 1.0ms | Allocations: 262)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 3694)
+Completed 200 OK in 28ms (Views: 10.3ms | ActiveRecord: 1.1ms | Allocations: 10880)
+
+
+Started GET "/login" for ::1 at 2021-07-26 01:28:42 +0700
+Processing by AuthController#login as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  ↳ app/controllers/auth_controller.rb:3:in `login'
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 4282)
+Completed 200 OK in 13ms (Views: 9.3ms | ActiveRecord: 1.2ms | Allocations: 5547)
+
+
+Started GET "/register" for ::1 at 2021-07-26 01:28:49 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 3533)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 4034)
+
+
+Started GET "/login" for ::1 at 2021-07-26 01:28:50 +0700
+Processing by AuthController#login as HTML
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  ↳ app/controllers/auth_controller.rb:3:in `login'
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 3533)
+Completed 200 OK in 12ms (Views: 7.8ms | ActiveRecord: 1.8ms | Allocations: 4781)
+
+
+Started GET "/register" for ::1 at 2021-07-26 01:28:51 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 3533)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 4034)
+
+
+Started GET "/login" for ::1 at 2021-07-26 01:28:53 +0700
+Processing by AuthController#login as HTML
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  ↳ app/controllers/auth_controller.rb:3:in `login'
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 3533)
+Completed 200 OK in 13ms (Views: 8.4ms | ActiveRecord: 1.3ms | Allocations: 4781)
+
+
+Started GET "/register" for ::1 at 2021-07-26 01:28:55 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 3535)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 4044)
+
+
+Started GET "/login" for ::1 at 2021-07-26 01:28:58 +0700
+Processing by AuthController#login as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  ↳ app/controllers/auth_controller.rb:3:in `login'
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 3535)
+Completed 200 OK in 12ms (Views: 8.0ms | ActiveRecord: 1.2ms | Allocations: 4799)
+
+
+Started GET "/register" for ::1 at 2021-07-26 01:28:59 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 3533)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 4034)
+
+
+Started GET "/login" for ::1 at 2021-07-26 01:29:00 +0700
+Processing by AuthController#login as HTML
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  ↳ app/controllers/auth_controller.rb:3:in `login'
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 3533)
+Completed 200 OK in 12ms (Views: 7.1ms | ActiveRecord: 1.6ms | Allocations: 4781)
+
+
+Started GET "/register" for ::1 at 2021-07-26 01:30:12 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 3533)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 4034)
+
+
+Started GET "/login" for ::1 at 2021-07-26 01:30:14 +0700
+Processing by AuthController#login as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  ↳ app/controllers/auth_controller.rb:3:in `login'
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 3533)
+Completed 200 OK in 12ms (Views: 7.9ms | ActiveRecord: 1.1ms | Allocations: 4789)
+
+
+Started GET "/register" for ::1 at 2021-07-26 01:30:16 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 3533)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 4034)
+
+
+Started GET "/login" for ::1 at 2021-07-26 01:30:18 +0700
+Processing by AuthController#login as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  ↳ app/controllers/auth_controller.rb:3:in `login'
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 3533)
+Completed 200 OK in 13ms (Views: 8.9ms | ActiveRecord: 1.2ms | Allocations: 4781)
+
+
+Started GET "/register" for ::1 at 2021-07-26 01:30:19 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 3533)
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.0ms | Allocations: 4034)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-02 01:29:53 +0700
+  
+ActiveRecord::ConnectionNotEstablished (Can't connect to MySQL server on '127.0.0.1:3306' (111)):
+  
+activerecord (6.1.4) lib/active_record/connection_adapters/mysql2_adapter.rb:45:in `rescue in new_client'
+activerecord (6.1.4) lib/active_record/connection_adapters/mysql2_adapter.rb:39:in `new_client'
+activerecord (6.1.4) lib/active_record/connection_adapters/mysql2_adapter.rb:23:in `mysql2_connection'
+activerecord (6.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `public_send'
+activerecord (6.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `new_connection'
+activerecord (6.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:926:in `checkout_new_connection'
+activerecord (6.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:905:in `try_to_checkout_new_connection'
+activerecord (6.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:866:in `acquire_connection'
+activerecord (6.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:588:in `checkout'
+activerecord (6.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:428:in `connection'
+activerecord (6.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:1128:in `retrieve_connection'
+activerecord (6.1.4) lib/active_record/connection_handling.rb:327:in `retrieve_connection'
+activerecord (6.1.4) lib/active_record/connection_handling.rb:283:in `connection'
+activerecord (6.1.4) lib/active_record/migration.rb:611:in `connection'
+activerecord (6.1.4) lib/active_record/migration.rb:606:in `build_watcher'
+activerecord (6.1.4) lib/active_record/migration.rb:588:in `block in call'
+activerecord (6.1.4) lib/active_record/migration.rb:587:in `synchronize'
+activerecord (6.1.4) lib/active_record/migration.rb:587:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.4) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.2) lib/mini_profiler/profiler.rb:384:in `call'
+webpacker (5.4.0) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.1.4) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2021-08-02 01:30:06 +0700
+  
+ActiveRecord::ConnectionNotEstablished (Can't connect to MySQL server on '127.0.0.1:3306' (111)):
+  
+activerecord (6.1.4) lib/active_record/connection_adapters/mysql2_adapter.rb:45:in `rescue in new_client'
+activerecord (6.1.4) lib/active_record/connection_adapters/mysql2_adapter.rb:39:in `new_client'
+activerecord (6.1.4) lib/active_record/connection_adapters/mysql2_adapter.rb:23:in `mysql2_connection'
+activerecord (6.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `public_send'
+activerecord (6.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `new_connection'
+activerecord (6.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:926:in `checkout_new_connection'
+activerecord (6.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:905:in `try_to_checkout_new_connection'
+activerecord (6.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:866:in `acquire_connection'
+activerecord (6.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:588:in `checkout'
+activerecord (6.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:428:in `connection'
+activerecord (6.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:1128:in `retrieve_connection'
+activerecord (6.1.4) lib/active_record/connection_handling.rb:327:in `retrieve_connection'
+activerecord (6.1.4) lib/active_record/connection_handling.rb:283:in `connection'
+activerecord (6.1.4) lib/active_record/migration.rb:611:in `connection'
+activerecord (6.1.4) lib/active_record/migration.rb:606:in `build_watcher'
+activerecord (6.1.4) lib/active_record/migration.rb:588:in `block in call'
+activerecord (6.1.4) lib/active_record/migration.rb:587:in `synchronize'
+activerecord (6.1.4) lib/active_record/migration.rb:587:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.4) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.2) lib/mini_profiler/profiler.rb:384:in `call'
+webpacker (5.4.0) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.1.4) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/" for ::1 at 2021-08-02 01:32:08 +0700
+  
+ActiveRecord::ConnectionNotEstablished (Can't connect to MySQL server on '127.0.0.1:3306' (111)):
+  
+activerecord (6.1.4) lib/active_record/connection_adapters/mysql2_adapter.rb:45:in `rescue in new_client'
+activerecord (6.1.4) lib/active_record/connection_adapters/mysql2_adapter.rb:39:in `new_client'
+activerecord (6.1.4) lib/active_record/connection_adapters/mysql2_adapter.rb:23:in `mysql2_connection'
+activerecord (6.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `public_send'
+activerecord (6.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `new_connection'
+activerecord (6.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:926:in `checkout_new_connection'
+activerecord (6.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:905:in `try_to_checkout_new_connection'
+activerecord (6.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:866:in `acquire_connection'
+activerecord (6.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:588:in `checkout'
+activerecord (6.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:428:in `connection'
+activerecord (6.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:1128:in `retrieve_connection'
+activerecord (6.1.4) lib/active_record/connection_handling.rb:327:in `retrieve_connection'
+activerecord (6.1.4) lib/active_record/connection_handling.rb:283:in `connection'
+activerecord (6.1.4) lib/active_record/migration.rb:611:in `connection'
+activerecord (6.1.4) lib/active_record/migration.rb:606:in `build_watcher'
+activerecord (6.1.4) lib/active_record/migration.rb:588:in `block in call'
+activerecord (6.1.4) lib/active_record/migration.rb:587:in `synchronize'
+activerecord (6.1.4) lib/active_record/migration.rb:587:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.4) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.2) lib/mini_profiler/profiler.rb:384:in `call'
+webpacker (5.4.0) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.1.4) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2021-08-02 01:44:44 +0700
+  
+ActiveRecord::NoDatabaseError (Unknown database 'halohalo_development'):
+  
+activerecord (6.1.4) lib/active_record/connection_adapters/mysql2_adapter.rb:43:in `rescue in new_client'
+activerecord (6.1.4) lib/active_record/connection_adapters/mysql2_adapter.rb:39:in `new_client'
+activerecord (6.1.4) lib/active_record/connection_adapters/mysql2_adapter.rb:23:in `mysql2_connection'
+activerecord (6.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `public_send'
+activerecord (6.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `new_connection'
+activerecord (6.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:926:in `checkout_new_connection'
+activerecord (6.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:905:in `try_to_checkout_new_connection'
+activerecord (6.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:866:in `acquire_connection'
+activerecord (6.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:588:in `checkout'
+activerecord (6.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:428:in `connection'
+activerecord (6.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:1128:in `retrieve_connection'
+activerecord (6.1.4) lib/active_record/connection_handling.rb:327:in `retrieve_connection'
+activerecord (6.1.4) lib/active_record/connection_handling.rb:283:in `connection'
+activerecord (6.1.4) lib/active_record/migration.rb:611:in `connection'
+activerecord (6.1.4) lib/active_record/migration.rb:606:in `build_watcher'
+activerecord (6.1.4) lib/active_record/migration.rb:588:in `block in call'
+activerecord (6.1.4) lib/active_record/migration.rb:587:in `synchronize'
+activerecord (6.1.4) lib/active_record/migration.rb:587:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.4) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.2) lib/mini_profiler/profiler.rb:384:in `call'
+webpacker (5.4.0) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.1.4) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+  [1m[35m (8.0ms)[0m  [1m[35mCREATE DATABASE `halohalo_development` DEFAULT CHARACTER SET `utf8`[0m
+  [1m[35m (5.2ms)[0m  [1m[35mCREATE DATABASE `halohalo_test` DEFAULT CHARACTER SET `utf8`[0m
+  [1m[35m (31.8ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY)[0m
+  [1m[35m (21.8ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('5122992937831723920', 0)[0m
+  [1m[35m (4.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateUsers (20210725163709)
+  [1m[35m (19.3ms)[0m  [1m[35mCREATE TABLE `users` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `username` varchar(255), `password_digest` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20210725163709')[0m
+  [1m[36mTRANSACTION (4.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.9ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2021-08-01 18:45:28.958178', '2021-08-01 18:45:28.958178')[0m
+  [1m[36mTRANSACTION (3.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT RELEASE_LOCK('5122992937831723920')[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Started GET "/" for 127.0.0.1 at 2021-08-02 02:00:19 +0700
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by AuthController#login as HTML
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  ↳ app/controllers/auth_controller.rb:3:in `login'
+  Rendering layout layouts/application.html.erb
+  Rendering auth/login.html.erb within layouts/application
+  Rendered auth/login.html.erb within layouts/application (Duration: 1.6ms | Allocations: 528)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 153)
+  Rendered layout layouts/application.html.erb (Duration: 51.9ms | Allocations: 19155)
+Completed 200 OK in 111ms (Views: 58.2ms | ActiveRecord: 4.1ms | Allocations: 25921)
+
+
+Started GET "/register" for 127.0.0.1 at 2021-08-02 02:00:45 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.8ms | Allocations: 261)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 3839)
+Completed 200 OK in 30ms (Views: 13.3ms | ActiveRecord: 4.0ms | Allocations: 8487)
+
+
+Started GET "/profile" for 127.0.0.1 at 2021-08-02 02:00:52 +0700
+Processing by UserController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering user/profile.html.erb within layouts/application
+  Rendered user/profile.html.erb within layouts/application (Duration: 0.5ms | Allocations: 121)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 3657)
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 4678)
+
+
+Started GET "/dashboard" for 127.0.0.1 at 2021-08-02 02:00:58 +0700
+Processing by UserController#dashboard as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering user/dashboard.html.erb within layouts/application
+  Rendered user/dashboard.html.erb within layouts/application (Duration: 0.7ms | Allocations: 121)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 3695)
+Completed 200 OK in 15ms (Views: 13.2ms | ActiveRecord: 0.0ms | Allocations: 4304)
+
+
+Started GET "/profile" for 127.0.0.1 at 2021-08-02 02:01:05 +0700
+Processing by UserController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering user/profile.html.erb within layouts/application
+  Rendered user/profile.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 3614)
+Completed 200 OK in 16ms (Views: 14.3ms | ActiveRecord: 0.0ms | Allocations: 4093)
+
+
+Started GET "/register" for 127.0.0.1 at 2021-08-02 02:01:06 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 3614)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 4112)
+
+
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` /* loading for inspect */ LIMIT 11[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO `users` (`username`, `password_digest`, `created_at`, `updated_at`) VALUES ('budi', '$2a$12$RkQQwfK6Xt3qJjpraol07uxnNZbRkTwW68FgZ8ZciByFvY.EVp2rm', '2021-08-01 19:07:30.254546', '2021-08-01 19:07:30.254546')[0m
+  [1m[36mTRANSACTION (6.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (24.2ms)[0m  [1m[35mDROP DATABASE IF EXISTS `halohalo_development`[0m
+  [1m[35m (11.0ms)[0m  [1m[35mDROP DATABASE IF EXISTS `halohalo_test`[0m
+  [1m[35m (12.4ms)[0m  [1m[35mCREATE DATABASE `halohalo_development` DEFAULT CHARACTER SET `utf8`[0m
+  [1m[35m (4.4ms)[0m  [1m[35mCREATE DATABASE `halohalo_test` DEFAULT CHARACTER SET `utf8`[0m
+  [1m[35m (30.4ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY)[0m
+  [1m[35m (29.1ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('5122992937831723920', 0)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateUsers (20210725163709)
+  [1m[35m (24.2ms)[0m  [1m[35mCREATE TABLE `users` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `username` varchar(255), `password_digest` varchar(255), `phone_number` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20210725163709')[0m
+  [1m[36mTRANSACTION (4.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2021-08-01 19:16:25.706557', '2021-08-01 19:16:25.706557')[0m
+  [1m[36mTRANSACTION (7.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT RELEASE_LOCK('5122992937831723920')[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO `users` (`username`, `password_digest`, `phone_number`, `created_at`, `updated_at`) VALUES ('budi', '$2a$12$oT2MnqfdcdV1XTCznc/IbOuiY8V9tSHxkgDkUEyrtHcsHMRPdUTPW', '081234567', '2021-08-01 19:18:25.278790', '2021-08-01 19:18:25.278790')[0m
+  [1m[36mTRANSACTION (7.1ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/register" for 127.0.0.1 at 2021-08-02 02:19:03 +0700
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 14.1ms | Allocations: 3971)
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 4074)
+Completed 500 Internal Server Error in 54ms (ActiveRecord: 6.1ms | Allocations: 13301)
+
+
+  
+ActionView::Template::Error (undefined method `users_path' for #<ActionView::Base:0x007f15658d5a78>):
+    84: </head>
+    85: <body>
+    86: <div class="signup-form">
+    87: 		<%= form_with(model: @user, local: true) do |f| %>
+    88: 		
+    89: 		<div class="form-group">
+    90: 			<%= f.label :username %><br/>
+  
+app/views/auth/register.html.erb:87
+Started GET "/register" for 127.0.0.1 at 2021-08-02 02:22:15 +0700
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 22.5ms | Allocations: 7506)
+  Rendered layout layouts/application.html.erb (Duration: 23.3ms | Allocations: 7609)
+Completed 500 Internal Server Error in 71ms (ActiveRecord: 5.9ms | Allocations: 16835)
+
+
+  
+ActionView::Template::Error (undefined method `phone_number_field' for #<ActionView::Helpers::FormBuilder:0x00007f3a659581d8>
+Did you mean?  phone_field):
+    93: 		
+    94: 		<div class="form-group">
+    95: 			<%= f.label :phone_number %><br/>
+    96: 			<%= f.phone_number_field :phone_number, class: "form-control" %>
+    97: 		</div>
+    98: 		
+    99: 		<div class="form-group">
+  
+app/views/auth/register.html.erb:96
+app/views/auth/register.html.erb:87
+Started GET "/register" for 127.0.0.1 at 2021-08-02 02:22:49 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 9.2ms | Allocations: 2373)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 2472)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms | Allocations: 3691)
+
+
+  
+ActionView::Template::Error (undefined method `phonenumber_field' for #<ActionView::Helpers::FormBuilder:0x00005607a16e9638>
+Did you mean?  phone_field):
+    93: 		
+    94: 		<div class="form-group">
+    95: 			<%= f.label :phone_number %><br/>
+    96: 			<%= f.phonenumber_field :phone_number, class: "form-control" %>
+    97: 		</div>
+    98: 		
+    99: 		<div class="form-group">
+  
+app/views/auth/register.html.erb:96
+app/views/auth/register.html.erb:87
+Started GET "/register" for 127.0.0.1 at 2021-08-02 02:22:57 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 19.8ms | Allocations: 6385)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | Allocations: 153)
+  Rendered layout layouts/application.html.erb (Duration: 33.2ms | Allocations: 12783)
+Completed 200 OK in 39ms (Views: 36.5ms | ActiveRecord: 0.0ms | Allocations: 14051)
+
+
+Started GET "/register" for 127.0.0.1 at 2021-08-02 02:23:48 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1341)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 5355)
+Completed 200 OK in 20ms (Views: 18.1ms | ActiveRecord: 0.0ms | Allocations: 6605)
+
+
+Started GET "/register" for 127.0.0.1 at 2021-08-02 02:24:30 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1385)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 1482)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 2693)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
+<title>Bootstrap Classic Sign Up Form with Blue Background</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<style>
+body {
+	color: #fff;
+	background: #999999;
+	<%# font-family: 'Roboto', sans-serif; %>
+}
+.form-control {
+	min-height: 41px;
+	box-shadow: none;
+	border-color: #ddd;
+}
+.form-control, .btn {        
+	border-radius: 3px;
+}
+.signup-form {
+	width: 425px;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+.signup-form form {
+	color: #999;
+	border-radius: 3px;
+	margin-bottom: 15px;
+	background: #fff;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	padding: 30px;
+}
+.signup-form h2 {
+	color: #333;
+	font-weight: bold;
+	margin-top: 0;
+}
+.signup-form hr {
+	margin: 0 -30px 20px;
+}
+.signup-form .form-group {
+	margin-bottom: 20px;
+}
+.signup-form label {
+	font-weight: normal;
+	font-size: 14px;
+}
+.signup-form input[type="checkbox"] {
+	margin-top: 6px;
+}    
+.signup-form .btn {        
+	font-size: 16px;
+	font-weight: bold;
+	background: #3598dc;
+	border: none;
+	min-width: 140px;
+}
+.signup-form .btn:hover, .signup-form .btn:active {
+	background: #2389cd;
+	outline: none !important;
+}
+.signup-form a {
+	color: #fff;
+	text-decoration: underline;
+}
+.signup-form a:hover {
+	text-decoration: none;
+}
+.signup-form form a {
+	color: #3598dc;
+	text-decoration: none;
+}
+.signup-form form a:hover {
+	text-decoration: underline;
+}
+</style>
+</head>
+<body>
+<div class="signup-form">
+		<%= form_with(model: @user, local: true) do |f| %>
+		<h2>Register</h2>
+		<div class="form-group">
+			<%= f.label :username %><br/>
+			<%= f.text_field :username, class: "form-control" %>
+		</div>
+		
+		<div class="form-group">
+			<%= f.label :phone_number %><br/>
+			<%= f.phone_field :phone_number, class: "form-control" %>
+		</div>
+		
+		<div class="form-group">
+			<%= f.label :password %><br/>
+			<%= f.password_field :password, class: "form-control" %>
+		</div>
+		
+		<div class="form-group">
+			<%= f.submit, class: "btn btn-primary btn-lg" %>
+		</div>
+		
+		<% end %>
+    <%# <form action="/examples/actions/confirmation.php" method="post">
+		<h2>Register</h2>
+		<p>Please fill in this form to create an account!</p>
+		<hr>
+        <div class="form-group">
+			<label>Username</label>
+        	<input type="text" class="form-control" name="username" required="required">
+        </div>
+        <div class="form-group">
+			<label>Phone Number</label>
+        	<input type="text" class="form-control" name="email" required="required">
+        </div>
+		<div class="form-group">
+			<label>Password</label>
+            <input type="password" class="form-control" name="password" required="required">
+        </div>
+		<div class="form-group">
+			<label>Confirm Password</label>
+            <input type="password" class="form-control" name="confirm_password" required="required">
+        </div>
+		<div class="form-group form-check">
+			<input type="checkbox" class="form-check-input" required="required">
+			<label class="form-check-label">I accept the <a href="/terms" target="_blank">Terms of Use</a> &amp; <a href="/privacy" target="_blank">Privacy Policy</a></label>
+		</div>
+		<div class="form-group">
+            <button type="submit" class="btn btn-primary btn-lg">Sign Up</button>
+        </div>
+    </form> %>
+	<div class="text-center">Already have an account? <a href="/login">Login here</a></div>
+</div>
+</body>
+</html>
+):
+1:    <!DOCTYPE html>
+2:    <html lang="en">
+3:    <head>
+4:    <meta charset="utf-8">
+5:    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+6:    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
+7:    <title>Bootstrap Classic Sign Up Form with Blue Background</title>
+8:    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+9:    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+10:    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+11:    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+12:    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+13:    <style>
+14:    body {
+15:    	color: #fff;
+16:    	background: #999999;
+17:    	<%# font-family: 'Roboto', sans-serif; %>
+18:    }
+19:    .form-control {
+20:    	min-height: 41px;
+21:    	box-shadow: none;
+22:    	border-color: #ddd;
+23:    }
+24:    .form-control, .btn {        
+25:    	border-radius: 3px;
+26:    }
+27:    .signup-form {
+28:    	width: 425px;
+29:    	margin: 0 auto;
+30:    	padding: 30px 0;
+31:    }
+32:    .signup-form form {
+33:    	color: #999;
+34:    	border-radius: 3px;
+35:    	margin-bottom: 15px;
+36:    	background: #fff;
+37:    	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+38:    	padding: 30px;
+39:    }
+40:    .signup-form h2 {
+41:    	color: #333;
+42:    	font-weight: bold;
+43:    	margin-top: 0;
+44:    }
+45:    .signup-form hr {
+46:    	margin: 0 -30px 20px;
+47:    }
+48:    .signup-form .form-group {
+49:    	margin-bottom: 20px;
+50:    }
+51:    .signup-form label {
+52:    	font-weight: normal;
+53:    	font-size: 14px;
+54:    }
+55:    .signup-form input[type="checkbox"] {
+56:    	margin-top: 6px;
+57:    }    
+58:    .signup-form .btn {        
+59:    	font-size: 16px;
+60:    	font-weight: bold;
+61:    	background: #3598dc;
+62:    	border: none;
+63:    	min-width: 140px;
+64:    }
+65:    .signup-form .btn:hover, .signup-form .btn:active {
+66:    	background: #2389cd;
+67:    	outline: none !important;
+68:    }
+69:    .signup-form a {
+70:    	color: #fff;
+71:    	text-decoration: underline;
+72:    }
+73:    .signup-form a:hover {
+74:    	text-decoration: none;
+75:    }
+76:    .signup-form form a {
+77:    	color: #3598dc;
+78:    	text-decoration: none;
+79:    }
+80:    .signup-form form a:hover {
+81:    	text-decoration: underline;
+82:    }
+83:    </style>
+84:    </head>
+85:    <body>
+86:    <div class="signup-form">
+87:    		<%= form_with(model: @user, local: true) do |f| %>
+88:    		<h2>Register</h2>
+89:    		<div class="form-group">
+90:    			<%= f.label :username %><br/>
+91:    			<%= f.text_field :username, class: "form-control" %>
+92:    		</div>
+93:    		
+94:    		<div class="form-group">
+95:    			<%= f.label :phone_number %><br/>
+96:    			<%= f.phone_field :phone_number, class: "form-control" %>
+97:    		</div>
+98:    		
+99:    		<div class="form-group">
+100:    			<%= f.label :password %><br/>
+101:    			<%= f.password_field :password, class: "form-control" %>
+102:    		</div>
+103:    		
+104:    		<div class="form-group">
+105:    			<%= f.submit, class: "btn btn-primary btn-lg" %>
+106:    		</div>
+107:    		
+108:    		<% end %>
+109:        <%# <form action="/examples/actions/confirmation.php" method="post">
+110:    		<h2>Register</h2>
+111:    		<p>Please fill in this form to create an account!</p>
+112:    		<hr>
+113:            <div class="form-group">
+114:    			<label>Username</label>
+115:            	<input type="text" class="form-control" name="username" required="required">
+116:            </div>
+117:            <div class="form-group">
+118:    			<label>Phone Number</label>
+119:            	<input type="text" class="form-control" name="email" required="required">
+120:            </div>
+121:    		<div class="form-group">
+122:    			<label>Password</label>
+123:                <input type="password" class="form-control" name="password" required="required">
+124:            </div>
+125:    		<div class="form-group">
+126:    			<label>Confirm Password</label>
+127:                <input type="password" class="form-control" name="confirm_password" required="required">
+128:            </div>
+129:    		<div class="form-group form-check">
+130:    			<input type="checkbox" class="form-check-input" required="required">
+131:    			<label class="form-check-label">I accept the <a href="/terms" target="_blank">Terms of Use</a> &amp; <a href="/privacy" target="_blank">Privacy Policy</a></label>
+132:    		</div>
+133:    		<div class="form-group">
+134:                <button type="submit" class="btn btn-primary btn-lg">Sign Up</button>
+135:            </div>
+136:        </form> %>
+137:    	<div class="text-center">Already have an account? <a href="/login">Login here</a></div>
+138:    </div>
+139:    </body>
+140:    </html>
+  
+app/views/auth/register.html.erb:105: syntax error, unexpected tLABEL, expecting '='
+app/views/auth/register.html.erb:105: syntax error, unexpected tLABEL, expecting '='
+app/views/auth/register.html.erb:105: syntax error, unexpected tLABEL, expecting '='
+app/views/auth/register.html.erb:105: syntax error, unexpected tLABEL, expecting '='
+app/views/auth/register.html.erb:105: syntax error, unexpected tLABEL, expecting '='
+app/views/auth/register.html.erb:105: syntax error, unexpected tLABEL, expecting '='
+Started GET "/register" for 127.0.0.1 at 2021-08-02 02:25:14 +0700
+Processing by AuthController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/register.html.erb within layouts/application
+  Rendered auth/register.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1219)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 14.5ms | Allocations: 5234)
+Completed 200 OK in 22ms (Views: 18.2ms | ActiveRecord: 0.0ms | Allocations: 6493)
+
+
+Started GET "/register" for 127.0.0.1 at 2021-08-02 02:33:29 +0700
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by UserController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering user/register.html.erb within layouts/application
+  Rendered user/register.html.erb within layouts/application (Duration: 16.1ms | Allocations: 6466)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | Allocations: 154)
+  Rendered layout layouts/application.html.erb (Duration: 32.3ms | Allocations: 12869)
+Completed 200 OK in 72ms (Views: 39.4ms | ActiveRecord: 0.0ms | Allocations: 16493)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-02 02:33:37 +0700
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (6.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  ↳ app/controllers/session_controller.rb:3:in `login'
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 1.6ms | Allocations: 262)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 18.6ms | Allocations: 3836)
+Completed 200 OK in 86ms (Views: 30.8ms | ActiveRecord: 15.3ms | Allocations: 8364)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-02 02:35:47 +0700
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  ↳ app/controllers/session_controller.rb:3:in `login'
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 3594)
+Completed 200 OK in 20ms (Views: 12.0ms | ActiveRecord: 3.1ms | Allocations: 6122)
+
+
+Started GET "/register" for 127.0.0.1 at 2021-08-02 02:37:01 +0700
+Processing by UserController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering user/register.html.erb within layouts/application
+  Rendered user/register.html.erb within layouts/application (Duration: 3.9ms | Allocations: 3409)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 6875)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms | Allocations: 7511)
+
+
+Started GET "/register" for 127.0.0.1 at 2021-08-02 02:37:34 +0700
+Processing by UserController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering user/register.html.erb within layouts/application
+  Rendered user/register.html.erb within layouts/application (Duration: 4.3ms | Allocations: 2964)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | Allocations: 6429)
+Completed 200 OK in 18ms (Views: 16.1ms | ActiveRecord: 0.0ms | Allocations: 6903)
+
+
+Started GET "/register" for 127.0.0.1 at 2021-08-02 02:41:53 +0700
+  
+SyntaxError (/home/abdullah/Documents/learning/halohalo/client/app/controllers/user_controller.rb:24: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/user_controller.rb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/controllers/user_controller.rb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/controllers/user_controller.rb:24: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/register" for 127.0.0.1 at 2021-08-02 02:42:09 +0700
+Processing by UserController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering user/register.html.erb within layouts/application
+  Rendered user/register.html.erb within layouts/application (Duration: 4.4ms | Allocations: 3451)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 6920)
+Completed 200 OK in 17ms (Views: 16.0ms | Allocations: 7550)
+
+
+Started POST "/register" for 127.0.0.1 at 2021-08-02 02:42:17 +0700
+  
+ActionController::RoutingError (No route matches [POST] "/register"):
+  
+Started GET "/register" for 127.0.0.1 at 2021-08-02 02:45:46 +0700
+Processing by UserController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering user/register.html.erb within layouts/application
+  Rendered user/register.html.erb within layouts/application (Duration: 4.2ms | Allocations: 3436)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 6903)
+Completed 200 OK in 15ms (Views: 13.8ms | Allocations: 7533)
+
+
+Started POST "/register" for 127.0.0.1 at 2021-08-02 02:45:51 +0700
+Processing by UserController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "username"=>"abdul", "phone_number"=>"", "password"=>"[FILTERED]", "commit"=>"Sign Up"}
+Completed 400 Bad Request in 4ms (Allocations: 1156)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/user_controller.rb:23:in `user_params'
+app/controllers/user_controller.rb:13:in `create'
+Started GET "/register" for 127.0.0.1 at 2021-08-02 02:46:12 +0700
+Processing by UserController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering user/register.html.erb within layouts/application
+  Rendered user/register.html.erb within layouts/application (Duration: 3.5ms | Allocations: 3459)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 6926)
+Completed 200 OK in 14ms (Views: 13.1ms | Allocations: 7556)
+
+
+Started POST "/register" for 127.0.0.1 at 2021-08-02 02:46:14 +0700
+Processing by UserController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "username"=>"abdul", "phone_number"=>"", "password"=>"[FILTERED]", "commit"=>"Sign Up"}
+Completed 400 Bad Request in 4ms (Allocations: 1142)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/user_controller.rb:23:in `user_params'
+app/controllers/user_controller.rb:13:in `create'
+Started GET "/register" for 127.0.0.1 at 2021-08-02 02:46:19 +0700
+Processing by UserController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering user/register.html.erb within layouts/application
+  Rendered user/register.html.erb within layouts/application (Duration: 4.0ms | Allocations: 2965)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 6431)
+Completed 200 OK in 15ms (Views: 13.9ms | Allocations: 6905)
+
+
+Started POST "/register" for 127.0.0.1 at 2021-08-02 02:46:22 +0700
+Processing by UserController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "username"=>"abdul", "phone_number"=>"123", "password"=>"[FILTERED]", "commit"=>"Sign Up"}
+Completed 400 Bad Request in 2ms (Allocations: 662)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/user_controller.rb:23:in `user_params'
+app/controllers/user_controller.rb:13:in `create'
+Started GET "/register" for 127.0.0.1 at 2021-08-02 02:55:26 +0700
+Processing by UserController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering user/register.html.erb within layouts/application
+  Rendered user/register.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1000)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 4550)
+Completed 200 OK in 29ms (Views: 11.4ms | ActiveRecord: 6.0ms | Allocations: 11038)
+
+
+Started POST "/users" for 127.0.0.1 at 2021-08-02 02:55:32 +0700
+  
+ActionController::RoutingError (uninitialized constant UsersController
+Did you mean?  UserController):
+  
+Started GET "/register" for 127.0.0.1 at 2021-08-02 02:56:23 +0700
+Processing by UserController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering user/register.html.erb within layouts/application
+  Rendered user/register.html.erb within layouts/application (Duration: 9.7ms | Allocations: 2706)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 2806)
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 7.9ms | Allocations: 7837)
+
+
+  
+ActionView::Template::Error (undefined method `users_path' for #<ActionView::Base:0x007f1440329280>
+Did you mean?  user_path):
+    84: </head>
+    85: <body>
+    86: <div class="signup-form">
+    87: 		<%= form_with(model: @user, local: true) do |f| %>
+    88: 		<h2>Register</h2>
+    89: 		<div class="form-group">
+    90: 			<%= f.label :username %><br/>
+  
+app/views/user/register.html.erb:87
+Started GET "/register" for 127.0.0.1 at 2021-08-02 02:56:26 +0700
+Processing by UserController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering user/register.html.erb within layouts/application
+  Rendered user/register.html.erb within layouts/application (Duration: 13.2ms | Allocations: 2670)
+  Rendered layout layouts/application.html.erb (Duration: 13.8ms | Allocations: 2771)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms | Allocations: 3231)
+
+
+  
+ActionView::Template::Error (undefined method `users_path' for #<ActionView::Base:0x007f14400a09f0>
+Did you mean?  user_path):
+    84: </head>
+    85: <body>
+    86: <div class="signup-form">
+    87: 		<%= form_with(model: @user, local: true) do |f| %>
+    88: 		<h2>Register</h2>
+    89: 		<div class="form-group">
+    90: 			<%= f.label :username %><br/>
+  
+app/views/user/register.html.erb:87
+Started GET "/register" for 127.0.0.1 at 2021-08-02 02:56:58 +0700
+Processing by UserController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering user/register.html.erb within layouts/application
+  Rendered user/register.html.erb within layouts/application (Duration: 3.3ms | Allocations: 879)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 18.5ms | Allocations: 4430)
+Completed 200 OK in 33ms (Views: 19.7ms | ActiveRecord: 5.7ms | Allocations: 9505)
+
+
+Started POST "/users" for 127.0.0.1 at 2021-08-02 02:57:12 +0700
+  
+ActionController::RoutingError (uninitialized constant UsersController
+Did you mean?  UserController):
+  
+Started GET "/register" for 127.0.0.1 at 2021-08-02 03:01:39 +0700
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by UsersController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/register.html.erb within layouts/application
+  Rendered users/register.html.erb within layouts/application (Duration: 8.1ms | Allocations: 4024)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | Allocations: 153)
+  Rendered layout layouts/application.html.erb (Duration: 20.0ms | Allocations: 10532)
+Completed 200 OK in 63ms (Views: 23.4ms | ActiveRecord: 5.2ms | Allocations: 19795)
+
+
+Started POST "/users" for 127.0.0.1 at 2021-08-02 03:01:42 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"username"=>"abdul", "phone_number"=>"123", "password"=>"[FILTERED]"}, "commit"=>"Sign Up"}
+[31mUnpermitted parameter: :password[0m
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 2752)
+
+
+  
+ActionView::MissingTemplate (Missing template users/login, application/login with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/abdullah/Documents/learning/halohalo/client/app/views"
+  * "/home/abdullah/.rvm/gems/ruby-2.5.8/gems/actiontext-6.1.4/app/views"
+  * "/home/abdullah/.rvm/gems/ruby-2.5.8/gems/actionmailbox-6.1.4/app/views"
+):
+  
+app/controllers/users_controller.rb:18:in `create'
+Started GET "/register" for 127.0.0.1 at 2021-08-02 03:02:30 +0700
+Processing by UsersController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/register.html.erb within layouts/application
+  Rendered users/register.html.erb within layouts/application (Duration: 2.9ms | Allocations: 879)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 4431)
+Completed 200 OK in 28ms (Views: 11.5ms | ActiveRecord: 8.0ms | Allocations: 9509)
+
+
+Started POST "/users" for 127.0.0.1 at 2021-08-02 03:02:32 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"username"=>"abdul", "phone_number"=>"123", "password"=>"[FILTERED]"}, "commit"=>"Sign Up"}
+[31mUnpermitted parameter: :password[0m
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 1506)
+
+
+  
+ActionView::MissingTemplate (Missing template users/login, application/login with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/abdullah/Documents/learning/halohalo/client/app/views"
+  * "/home/abdullah/.rvm/gems/ruby-2.5.8/gems/actiontext-6.1.4/app/views"
+  * "/home/abdullah/.rvm/gems/ruby-2.5.8/gems/actionmailbox-6.1.4/app/views"
+):
+  
+app/controllers/users_controller.rb:18:in `create'
+Started GET "/register" for 127.0.0.1 at 2021-08-02 03:05:07 +0700
+Processing by UsersController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/register.html.erb within layouts/application
+  Rendered users/register.html.erb within layouts/application (Duration: 2.8ms | Allocations: 879)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 4431)
+Completed 200 OK in 26ms (Views: 11.7ms | ActiveRecord: 5.8ms | Allocations: 9512)
+
+
+Started POST "/users" for 127.0.0.1 at 2021-08-02 03:05:11 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"username"=>"abdul", "phone_number"=>"123", "password"=>"[FILTERED]"}, "commit"=>"Sign Up"}
+[31mUnpermitted parameter: :password[0m
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 1494)
+
+
+  
+ActionView::MissingTemplate (Missing template users/login, application/login with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/abdullah/Documents/learning/halohalo/client/app/views"
+  * "/home/abdullah/.rvm/gems/ruby-2.5.8/gems/actiontext-6.1.4/app/views"
+  * "/home/abdullah/.rvm/gems/ruby-2.5.8/gems/actionmailbox-6.1.4/app/views"
+):
+  
+app/controllers/users_controller.rb:18:in `create'
+Started GET "/register" for 127.0.0.1 at 2021-08-02 03:05:54 +0700
+Processing by UsersController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/register.html.erb within layouts/application
+  Rendered users/register.html.erb within layouts/application (Duration: 3.1ms | Allocations: 879)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 4429)
+Completed 200 OK in 28ms (Views: 12.2ms | ActiveRecord: 6.7ms | Allocations: 9495)
+
+
+Started POST "/users" for 127.0.0.1 at 2021-08-02 03:05:57 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"username"=>"abdul", "phone_number"=>"123", "password"=>"[FILTERED]"}, "commit"=>"Sign Up"}
+[31mUnpermitted parameter: :password[0m
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 1998)
+
+
+  
+ActionView::MissingTemplate (Missing template users/session#login, application/session#login with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/abdullah/Documents/learning/halohalo/client/app/views"
+  * "/home/abdullah/.rvm/gems/ruby-2.5.8/gems/actiontext-6.1.4/app/views"
+  * "/home/abdullah/.rvm/gems/ruby-2.5.8/gems/actionmailbox-6.1.4/app/views"
+):
+  
+app/controllers/users_controller.rb:18:in `create'
+Started GET "/register" for 127.0.0.1 at 2021-08-02 03:06:18 +0700
+Processing by UsersController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/register.html.erb within layouts/application
+  Rendered users/register.html.erb within layouts/application (Duration: 3.3ms | Allocations: 879)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 4450)
+Completed 200 OK in 27ms (Views: 12.0ms | ActiveRecord: 6.7ms | Allocations: 9516)
+
+
+Started POST "/users" for 127.0.0.1 at 2021-08-02 03:06:21 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"username"=>"abdul", "phone_number"=>"123", "password"=>"[FILTERED]"}, "commit"=>"Sign Up"}
+[31mUnpermitted parameter: :password[0m
+  Rendering layout layouts/application.html.erb
+  Rendering users/dashboard.html.erb within layouts/application
+  Rendered users/dashboard.html.erb within layouts/application (Duration: 0.6ms | Allocations: 124)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 3625)
+Completed 200 OK in 15ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 4940)
+
+
+Started GET "/register" for 127.0.0.1 at 2021-08-02 03:06:24 +0700
+Processing by UsersController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/register.html.erb within layouts/application
+  Rendered users/register.html.erb within layouts/application (Duration: 3.3ms | Allocations: 820)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 4389)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.0ms | Allocations: 4883)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-02 03:06:36 +0700
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  ↳ app/controllers/session_controller.rb:3:in `login'
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 0.7ms | Allocations: 262)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 3796)
+Completed 200 OK in 20ms (Views: 11.1ms | ActiveRecord: 2.0ms | Allocations: 6379)
+
+
+Started GET "/register" for 127.0.0.1 at 2021-08-02 03:07:00 +0700
+Processing by UsersController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/register.html.erb within layouts/application
+  Rendered users/register.html.erb within layouts/application (Duration: 3.1ms | Allocations: 822)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 13.2ms | Allocations: 4392)
+Completed 200 OK in 16ms (Views: 14.3ms | ActiveRecord: 0.0ms | Allocations: 4895)
+
+
+Started POST "/users" for 127.0.0.1 at 2021-08-02 03:07:18 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"username"=>"abdul", "phone_number"=>"123", "password"=>"[FILTERED]"}, "commit"=>"Sign Up"}
+[31mUnpermitted parameter: :password[0m
+  Rendering layout layouts/application.html.erb
+  Rendering users/register.html.erb within layouts/application
+  Rendered users/register.html.erb within layouts/application (Duration: 5.5ms | Allocations: 1571)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 5071)
+Completed 200 OK in 43ms (Views: 15.8ms | ActiveRecord: 6.8ms | Allocations: 10778)
+
+
+Started POST "/users" for 127.0.0.1 at 2021-08-02 03:07:22 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"username"=>"abdul", "phone_number"=>"123", "password"=>"[FILTERED]"}, "commit"=>"Sign Up"}
+[31mUnpermitted parameter: :password[0m
+  Rendering layout layouts/application.html.erb
+  Rendering users/register.html.erb within layouts/application
+  Rendered users/register.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1437)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 4935)
+Completed 200 OK in 20ms (Views: 16.3ms | ActiveRecord: 0.0ms | Allocations: 6075)
+
+
+Started GET "/users" for 127.0.0.1 at 2021-08-02 03:07:46 +0700
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for UsersController):
+  
+actionpack (6.1.4) lib/abstract_controller/base.rb:160:in `process'
+actionview (6.1.4) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.4) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.4) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.4) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.4) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.4) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.4) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.4) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.4) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.4) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.2) lib/mini_profiler/profiler.rb:384:in `call'
+webpacker (5.4.0) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.1.4) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/register" for 127.0.0.1 at 2021-08-02 03:07:48 +0700
+Processing by UsersController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/register.html.erb within layouts/application
+  Rendered users/register.html.erb within layouts/application (Duration: 2.4ms | Allocations: 879)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 4450)
+Completed 200 OK in 29ms (Views: 11.5ms | ActiveRecord: 8.0ms | Allocations: 9519)
+
+
+Started POST "/users" for 127.0.0.1 at 2021-08-02 03:07:50 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"username"=>"abdul", "phone_number"=>"123", "password"=>"[FILTERED]"}, "commit"=>"Sign Up"}
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:14:in `create'
+  [1m[36mUser Create (1.2ms)[0m  [1m[32mINSERT INTO `users` (`username`, `password_digest`, `phone_number`, `created_at`, `updated_at`) VALUES ('abdul', '$2a$12$13sCkbuhvt49xWSWv6CZQ.joSzp9cXA10v0SQCBrrACZddnzmRKZy', '123', '2021-08-01 20:07:50.910045', '2021-08-01 20:07:50.910045')[0m
+  ↳ app/controllers/users_controller.rb:14:in `create'
+  [1m[36mTRANSACTION (8.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:14:in `create'
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 256ms (ActiveRecord: 10.8ms | Allocations: 2860)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-02 03:07:50 +0700
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  ↳ app/controllers/session_controller.rb:3:in `login'
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 3576)
+Completed 200 OK in 12ms (Views: 7.4ms | ActiveRecord: 1.6ms | Allocations: 4984)
+
+
+Started GET "/register" for 127.0.0.1 at 2021-08-02 03:10:05 +0700
+Processing by UsersController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/register.html.erb within layouts/application
+  Rendered users/register.html.erb within layouts/application (Duration: 3.2ms | Allocations: 814)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 4383)
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 4885)
+
+
+Started POST "/users" for 127.0.0.1 at 2021-08-02 03:10:10 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"username"=>"abdul", "phone_number"=>"123", "password"=>"[FILTERED]"}, "commit"=>"Sign Up"}
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:14:in `create'
+  [1m[36mUser Create (1.0ms)[0m  [1m[32mINSERT INTO `users` (`username`, `password_digest`, `phone_number`, `created_at`, `updated_at`) VALUES ('abdul', '$2a$12$Enyn1xOApJy/KXgCjY35rOp/jSNdxU8k/pKRLaJvaHV9fc9CIOZWe', '123', '2021-08-01 20:10:10.918421', '2021-08-01 20:10:10.918421')[0m
+  ↳ app/controllers/users_controller.rb:14:in `create'
+  [1m[36mTRANSACTION (6.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:14:in `create'
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 256ms (ActiveRecord: 8.6ms | Allocations: 2685)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-02 03:10:10 +0700
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  ↳ app/controllers/session_controller.rb:3:in `login'
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 3611)
+Completed 200 OK in 14ms (Views: 9.6ms | ActiveRecord: 1.4ms | Allocations: 4860)
+
+
+Started GET "/register" for 127.0.0.1 at 2021-08-02 03:10:28 +0700
+Processing by UsersController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/register.html.erb within layouts/application
+  Rendered users/register.html.erb within layouts/application (Duration: 3.5ms | Allocations: 814)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 13.8ms | Allocations: 4383)
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 0.0ms | Allocations: 4885)
+
+
+Started POST "/users" for 127.0.0.1 at 2021-08-02 03:10:30 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"username"=>"abdul", "phone_number"=>"123", "password"=>"[FILTERED]"}, "commit"=>"Sign Up"}
+  Rendering layout layouts/application.html.erb
+  Rendering users/register.html.erb within layouts/application
+  Rendered users/register.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1439)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 4937)
+Completed 200 OK in 15ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 6049)
+
+
+Started POST "/users" for 127.0.0.1 at 2021-08-02 03:10:31 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"username"=>"abdul", "phone_number"=>"123", "password"=>"[FILTERED]"}, "commit"=>"Sign Up"}
+  Rendering layout layouts/application.html.erb
+  Rendering users/register.html.erb within layouts/application
+  Rendered users/register.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1437)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 18.3ms | Allocations: 4935)
+Completed 200 OK in 21ms (Views: 19.2ms | ActiveRecord: 0.0ms | Allocations: 6047)
+
+
+Started POST "/users" for 127.0.0.1 at 2021-08-02 03:10:39 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"username"=>"abdul", "phone_number"=>"123", "password"=>"[FILTERED]"}, "commit"=>"Sign Up"}
+  Rendering layout layouts/application.html.erb
+  Rendering users/register.html.erb within layouts/application
+  Rendered users/register.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1437)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 4936)
+Completed 200 OK in 20ms (Views: 17.5ms | ActiveRecord: 0.0ms | Allocations: 6048)
+
+
+Started POST "/users" for 127.0.0.1 at 2021-08-02 03:10:44 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"username"=>"abdul", "phone_number"=>"123", "password"=>"[FILTERED]"}, "commit"=>"Sign Up"}
+  Rendering layout layouts/application.html.erb
+  Rendering users/register.html.erb within layouts/application
+  Rendered users/register.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1437)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 4935)
+Completed 200 OK in 15ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 6047)
+
+
+Started GET "/users" for 127.0.0.1 at 2021-08-02 03:11:51 +0700
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for UsersController):
+  
+actionpack (6.1.4) lib/abstract_controller/base.rb:160:in `process'
+actionview (6.1.4) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.4) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.4) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.4) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.4) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.4) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.4) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.4) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.4) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.4) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.2) lib/mini_profiler/profiler.rb:384:in `call'
+webpacker (5.4.0) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.1.4) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/users" for 127.0.0.1 at 2021-08-02 03:11:53 +0700
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for UsersController):
+  
+actionpack (6.1.4) lib/abstract_controller/base.rb:160:in `process'
+actionview (6.1.4) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.4) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.4) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.4) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.4) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.4) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.4) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.4) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.4) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.4) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.4) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.2) lib/mini_profiler/profiler.rb:384:in `call'
+webpacker (5.4.0) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.1.4) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/register" for 127.0.0.1 at 2021-08-02 03:11:55 +0700
+Processing by UsersController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/register.html.erb within layouts/application
+  Rendered users/register.html.erb within layouts/application (Duration: 4.3ms | Allocations: 814)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 13.5ms | Allocations: 4384)
+Completed 200 OK in 17ms (Views: 14.6ms | ActiveRecord: 0.0ms | Allocations: 4886)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-02 03:11:55 +0700
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (1.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  ↳ app/controllers/session_controller.rb:3:in `login'
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 3611)
+Completed 200 OK in 20ms (Views: 13.5ms | ActiveRecord: 1.9ms | Allocations: 5648)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-02 03:30:58 +0700
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by SessionController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 1.8ms | Allocations: 526)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | Allocations: 154)
+  Rendered layout layouts/application.html.erb (Duration: 16.0ms | Allocations: 7038)
+Completed 200 OK in 39ms (Views: 20.0ms | ActiveRecord: 0.0ms | Allocations: 10679)
+
+
+Started POST "/examples/actions/confirmation.php" for 127.0.0.1 at 2021-08-02 03:31:41 +0700
+  
+ActionController::RoutingError (No route matches [POST] "/examples/actions/confirmation.php"):
+  
+Started GET "/login" for 127.0.0.1 at 2021-08-02 03:32:59 +0700
+Processing by SessionController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 8.9ms | Allocations: 2873)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 17.0ms | Allocations: 6842)
+Completed 200 OK in 21ms (Views: 19.4ms | ActiveRecord: 0.0ms | Allocations: 8003)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-02 03:33:24 +0700
+Processing by SessionController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 3.5ms | Allocations: 783)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 13.9ms | Allocations: 4786)
+Completed 200 OK in 22ms (Views: 19.3ms | ActiveRecord: 0.0ms | Allocations: 5934)
+
+
+Started POST "/login" for 127.0.0.1 at 2021-08-02 03:33:27 +0700
+Processing by SessionController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "session"=>{"username"=>"abdul", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`username` = 'abdul' LIMIT 1[0m
+  ↳ app/controllers/session_controller.rb:17:in `create'
+Completed 500 Internal Server Error in 263ms (ActiveRecord: 10.7ms | Allocations: 9253)
+
+
+  
+NameError (undefined local variable or method `dashboard' for #<SessionController:0x007fa0769f0a88>
+Did you mean?  dashboard_url):
+  
+app/controllers/session_controller.rb:21:in `create'
+Started GET "/login" for 127.0.0.1 at 2021-08-02 03:33:55 +0700
+Processing by SessionController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 2.2ms | Allocations: 400)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 3942)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms | Allocations: 4581)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-02 03:33:59 +0700
+Processing by SessionController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 1.8ms | Allocations: 392)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 3955)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.0ms | Allocations: 4439)
+
+
+Started POST "/login" for 127.0.0.1 at 2021-08-02 03:34:02 +0700
+Processing by SessionController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "session"=>{"username"=>"abdul", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`username` = 'abdul' LIMIT 1[0m
+  ↳ app/controllers/session_controller.rb:17:in `create'
+Redirected to http://127.0.0.1:3000/dashboard
+Completed 302 Found in 262ms (ActiveRecord: 10.1ms | Allocations: 5598)
+
+
+Started GET "/dashboard" for 127.0.0.1 at 2021-08-02 03:34:02 +0700
+Processing by UsersController#dashboard as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/dashboard.html.erb within layouts/application
+  Rendered users/dashboard.html.erb within layouts/application (Duration: 0.5ms | Allocations: 124)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 3697)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 4725)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-02 03:34:25 +0700
+Processing by SessionController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 1.2ms | Allocations: 399)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 3961)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 4447)
+
+
+Started POST "/login" for 127.0.0.1 at 2021-08-02 03:34:28 +0700
+Processing by SessionController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "session"=>{"username"=>"abdul", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`username` = 'abdul' LIMIT 1[0m
+  ↳ app/controllers/session_controller.rb:17:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 1.6ms | Allocations: 387)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 3965)
+Completed 200 OK in 252ms (Views: 8.0ms | ActiveRecord: 2.0ms | Allocations: 5152)
+
+
+Started GET "/register" for 127.0.0.1 at 2021-08-02 03:34:41 +0700
+Processing by UsersController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/register.html.erb within layouts/application
+  Rendered users/register.html.erb within layouts/application (Duration: 22.5ms | Allocations: 6970)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 30.0ms | Allocations: 10441)
+Completed 200 OK in 33ms (Views: 31.6ms | ActiveRecord: 0.0ms | Allocations: 11090)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-02 03:34:42 +0700
+Processing by SessionController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 2.4ms | Allocations: 399)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 15.9ms | Allocations: 3961)
+Completed 200 OK in 22ms (Views: 20.0ms | ActiveRecord: 0.0ms | Allocations: 4447)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-02 03:35:05 +0700
+Processing by SessionController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 3.0ms | Allocations: 768)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 13.8ms | Allocations: 4775)
+Completed 200 OK in 19ms (Views: 17.2ms | ActiveRecord: 0.0ms | Allocations: 5923)
+
+
+Started POST "/login" for 127.0.0.1 at 2021-08-02 03:38:30 +0700
+Processing by SessionController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "session"=>{"username"=>"abdul", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`username` = 'abdul' LIMIT 1[0m
+  ↳ app/controllers/session_controller.rb:17:in `create'
+Redirected to http://127.0.0.1:3000/dashboard
+Completed 302 Found in 254ms (ActiveRecord: 8.6ms | Allocations: 5557)
+
+
+Started GET "/dashboard" for 127.0.0.1 at 2021-08-02 03:38:30 +0700
+Processing by UsersController#dashboard as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/dashboard.html.erb within layouts/application
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:4:in `current_user'
+  Rendered users/dashboard.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1015)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | Allocations: 151)
+  Rendered layout layouts/application.html.erb (Duration: 19.6ms | Allocations: 5031)
+Completed 200 OK in 24ms (Views: 20.5ms | ActiveRecord: 1.4ms | Allocations: 6277)
+
+
+Started GET "/dashboard" for 127.0.0.1 at 2021-08-02 03:38:32 +0700
+Processing by UsersController#dashboard as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/dashboard.html.erb within layouts/application
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:4:in `current_user'
+  Rendered users/dashboard.html.erb within layouts/application (Duration: 2.7ms | Allocations: 769)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 4344)
+Completed 200 OK in 12ms (Views: 10.1ms | ActiveRecord: 1.1ms | Allocations: 4831)
+
+
+Started GET "/dashboard" for 127.0.0.1 at 2021-08-02 03:38:34 +0700
+Processing by UsersController#dashboard as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/dashboard.html.erb within layouts/application
+  [1m[36mUser Load (3.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:4:in `current_user'
+  Rendered users/dashboard.html.erb within layouts/application (Duration: 7.7ms | Allocations: 756)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 17.6ms | Allocations: 4327)
+Completed 200 OK in 21ms (Views: 15.8ms | ActiveRecord: 3.5ms | Allocations: 4813)
+
+
+Started GET "/dashboard" for 127.0.0.1 at 2021-08-02 03:41:04 +0700
+Processing by UsersController#dashboard as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/dashboard.html.erb within layouts/application
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:4:in `current_user'
+  Rendered users/dashboard.html.erb within layouts/application (Duration: 4.2ms | Allocations: 883)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 13.7ms | Allocations: 3263)
+  Rendered layout layouts/application.html.erb (Duration: 26.9ms | Allocations: 8008)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 1.4ms | Allocations: 9218)
+
+
+  
+ActionView::Template::Error (undefined method `redirect_to' for #<ActionView::Base:0x007fa0766888f0>):
+    31:       <li><a href="/register" class="btn btn-success">Register here</a></li>
+    32:     </ul>
+    33:     <%else%>
+    34:       <%redirect_to '/login'%>
+    35:     <%end%>
+    36:   </div>
+    37: </nav>
+  
+app/views/layouts/_navbar.html.erb:34
+app/views/layouts/application.html.erb:14
+Started GET "/dashboard" for 127.0.0.1 at 2021-08-02 03:42:39 +0700
+Processing by UsersController#dashboard as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/dashboard.html.erb within layouts/application
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:4:in `current_user'
+  Rendered users/dashboard.html.erb within layouts/application (Duration: 4.5ms | Allocations: 883)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 212)
+  Rendered layout layouts/application.html.erb (Duration: 15.2ms | Allocations: 4960)
+Completed 200 OK in 22ms (Views: 17.7ms | ActiveRecord: 1.6ms | Allocations: 6203)
+
+
+Started GET "/logout" for 127.0.0.1 at 2021-08-02 03:43:06 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/logout"):
+  
+Started GET "/dashboard" for 127.0.0.1 at 2021-08-02 03:46:23 +0700
+Processing by UsersController#dashboard as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/dashboard.html.erb within layouts/application
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:4:in `current_user'
+  Rendered users/dashboard.html.erb within layouts/application (Duration: 20.2ms | Allocations: 5496)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 26.7ms | Allocations: 9053)
+Completed 200 OK in 29ms (Views: 18.8ms | ActiveRecord: 9.1ms | Allocations: 9695)
+
+
+Started GET "/logout" for 127.0.0.1 at 2021-08-02 03:46:25 +0700
+Processing by SessionController#destroy as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 329)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-02 03:46:25 +0700
+Processing by SessionController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 2.5ms | Allocations: 772)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 12.4ms | Allocations: 4336)
+Completed 200 OK in 16ms (Views: 14.2ms | ActiveRecord: 0.0ms | Allocations: 5353)
+
+
+Started GET "/dashboard" for 127.0.0.1 at 2021-08-02 03:46:43 +0700
+Processing by UsersController#dashboard as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/dashboard.html.erb within layouts/application
+  Rendered users/dashboard.html.erb within layouts/application (Duration: 15.0ms | Allocations: 3114)
+  Rendered layout layouts/application.html.erb (Duration: 15.4ms | Allocations: 3214)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms | Allocations: 3666)
+
+
+  
+ActionView::Template::Error (undefined method `redirect_to' for #<ActionView::Base:0x007fa076134958>):
+    1: <%if logged_in?%>
+    2:   <h1>Welcome <%=current_user.username %> </h1>
+    3: <%else%>
+    4:   <%redirect_to '/login'%>
+    5: <%end%>
+  
+app/views/users/dashboard.html.erb:4
+Started GET "/dashboard" for 127.0.0.1 at 2021-08-02 03:49:04 +0700
+Processing by UsersController#dashboard as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/dashboard.html.erb within layouts/application
+Redirected to http://127.0.0.1:3000/login
+  Rendered users/dashboard.html.erb within layouts/application (Duration: 0.5ms | Allocations: 123)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 3679)
+Completed 302 Found in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms | Allocations: 4319)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-02 03:49:04 +0700
+Processing by SessionController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 1.3ms | Allocations: 400)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 3967)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 4603)
+
+
+Started GET "/dashboard" for 127.0.0.1 at 2021-08-02 03:49:09 +0700
+Processing by UsersController#dashboard as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/dashboard.html.erb within layouts/application
+Redirected to http://127.0.0.1:3000/login
+  Rendered users/dashboard.html.erb within layouts/application (Duration: 0.6ms | Allocations: 121)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 3694)
+Completed 302 Found in 10ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 4178)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-02 03:49:10 +0700
+Processing by SessionController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 1.6ms | Allocations: 392)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 3956)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 4439)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-02 03:49:19 +0700
+Processing by SessionController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 3.1ms | Allocations: 392)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 18.8ms | Allocations: 3956)
+Completed 200 OK in 22ms (Views: 20.2ms | ActiveRecord: 0.0ms | Allocations: 4448)
+
+
+Started POST "/login" for 127.0.0.1 at 2021-08-02 03:49:54 +0700
+Processing by SessionController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "session"=>{"username"=>"abdul", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`username` = 'abdul' LIMIT 1[0m
+  ↳ app/controllers/session_controller.rb:17:in `create'
+Redirected to http://127.0.0.1:3000/dashboard
+Completed 302 Found in 268ms (ActiveRecord: 9.0ms | Allocations: 9953)
+
+
+Started GET "/dashboard" for 127.0.0.1 at 2021-08-02 03:49:54 +0700
+Processing by UsersController#dashboard as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/dashboard.html.erb within layouts/application
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:4:in `current_user'
+  Rendered users/dashboard.html.erb within layouts/application (Duration: 3.9ms | Allocations: 877)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 4451)
+Completed 200 OK in 12ms (Views: 9.8ms | ActiveRecord: 1.5ms | Allocations: 4937)
+
+
+Started GET "/logout" for 127.0.0.1 at 2021-08-02 03:50:04 +0700
+Processing by SessionController#destroy as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 324)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-02 03:50:04 +0700
+Processing by SessionController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 1.4ms | Allocations: 392)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 12.6ms | Allocations: 3956)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.0ms | Allocations: 4462)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-02 03:51:16 +0700
+Processing by SessionController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 2.8ms | Allocations: 775)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 211)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 4840)
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.0ms | Allocations: 5993)
+
+
+Started GET "/register" for 127.0.0.1 at 2021-08-02 03:51:29 +0700
+Processing by UsersController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/register.html.erb within layouts/application
+  Rendered users/register.html.erb within layouts/application (Duration: 11.2ms | Allocations: 1269)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 44.7ms | Allocations: 4841)
+Completed 200 OK in 58ms (Views: 53.8ms | ActiveRecord: 0.0ms | Allocations: 5891)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-02 03:51:30 +0700
+Processing by SessionController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 1.1ms | Allocations: 399)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 3965)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 4458)
+
+
+Started GET "/register" for 127.0.0.1 at 2021-08-02 03:51:31 +0700
+Processing by UsersController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/register.html.erb within layouts/application
+  Rendered users/register.html.erb within layouts/application (Duration: 3.1ms | Allocations: 814)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 4386)
+Completed 200 OK in 19ms (Views: 17.7ms | ActiveRecord: 0.0ms | Allocations: 4898)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-02 03:51:31 +0700
+Processing by SessionController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 1.1ms | Allocations: 392)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 3956)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 4448)
+
+
+Started GET "/register" for 127.0.0.1 at 2021-08-02 03:51:33 +0700
+Processing by UsersController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/register.html.erb within layouts/application
+  Rendered users/register.html.erb within layouts/application (Duration: 1.9ms | Allocations: 814)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 4386)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 4897)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-02 03:51:33 +0700
+Processing by SessionController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 0.9ms | Allocations: 392)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 3956)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 4448)
+
+
+Started GET "/register" for 127.0.0.1 at 2021-08-02 03:51:34 +0700
+Processing by UsersController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/register.html.erb within layouts/application
+  Rendered users/register.html.erb within layouts/application (Duration: 2.3ms | Allocations: 814)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 4387)
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.0ms | Allocations: 4898)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-02 03:51:35 +0700
+Processing by SessionController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 1.4ms | Allocations: 392)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 13.3ms | Allocations: 3957)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms | Allocations: 4449)
+
+
+Started GET "/register" for 127.0.0.1 at 2021-08-02 03:51:36 +0700
+Processing by UsersController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/register.html.erb within layouts/application
+  Rendered users/register.html.erb within layouts/application (Duration: 2.0ms | Allocations: 814)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 4386)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 4902)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-02 03:51:38 +0700
+Processing by SessionController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 1.1ms | Allocations: 392)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 3956)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 4448)
+
+
+Started GET "/register" for 127.0.0.1 at 2021-08-02 03:51:39 +0700
+Processing by UsersController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/register.html.erb within layouts/application
+  Rendered users/register.html.erb within layouts/application (Duration: 2.3ms | Allocations: 814)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 4386)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms | Allocations: 4897)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-02 03:51:41 +0700
+Processing by SessionController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 1.4ms | Allocations: 392)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 3956)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 4448)
+
+
+Started GET "/register" for 127.0.0.1 at 2021-08-02 03:51:42 +0700
+Processing by UsersController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/register.html.erb within layouts/application
+  Rendered users/register.html.erb within layouts/application (Duration: 2.8ms | Allocations: 814)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 4386)
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 4897)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-02 03:51:43 +0700
+Processing by SessionController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 1.1ms | Allocations: 392)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 3956)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 4448)
+
+
+Started GET "/register" for 127.0.0.1 at 2021-08-02 03:51:45 +0700
+Processing by UsersController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/register.html.erb within layouts/application
+  Rendered users/register.html.erb within layouts/application (Duration: 2.3ms | Allocations: 814)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 16.7ms | Allocations: 4386)
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.0ms | Allocations: 4897)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-02 03:51:47 +0700
+Processing by SessionController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 1.0ms | Allocations: 392)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 3956)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 4448)
+
+
+Started GET "/register" for 127.0.0.1 at 2021-08-02 03:51:48 +0700
+Processing by UsersController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/register.html.erb within layouts/application
+  Rendered users/register.html.erb within layouts/application (Duration: 2.5ms | Allocations: 814)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 4386)
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 4897)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-02 03:51:50 +0700
+Processing by SessionController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 1.5ms | Allocations: 392)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 3956)
+Completed 200 OK in 15ms (Views: 13.6ms | ActiveRecord: 0.0ms | Allocations: 4448)
+
+
+Started GET "/register" for 127.0.0.1 at 2021-08-02 03:51:54 +0700
+Processing by UsersController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/register.html.erb within layouts/application
+  Rendered users/register.html.erb within layouts/application (Duration: 1.9ms | Allocations: 814)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 4386)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 4897)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-02 03:51:58 +0700
+Processing by SessionController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 1.4ms | Allocations: 392)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 3956)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 4448)
+
+
+Started GET "/register" for 127.0.0.1 at 2021-08-02 03:51:59 +0700
+Processing by UsersController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/register.html.erb within layouts/application
+  Rendered users/register.html.erb within layouts/application (Duration: 2.1ms | Allocations: 814)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 4386)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 4897)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-02 03:52:01 +0700
+Processing by SessionController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 1.4ms | Allocations: 392)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 3957)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.0ms | Allocations: 4449)
+
+
+Started GET "/register" for 127.0.0.1 at 2021-08-02 03:52:01 +0700
+Processing by UsersController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/register.html.erb within layouts/application
+  Rendered users/register.html.erb within layouts/application (Duration: 1.8ms | Allocations: 814)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 4387)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 4898)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-02 03:52:04 +0700
+Processing by SessionController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 1.2ms | Allocations: 392)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 3956)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 4448)
+
+
+Started POST "/login" for 127.0.0.1 at 2021-08-02 03:52:08 +0700
+Processing by SessionController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "session"=>{"username"=>"abdul", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`username` = 'abdul' LIMIT 1[0m
+  ↳ app/controllers/session_controller.rb:17:in `create'
+Redirected to http://127.0.0.1:3000/dashboard
+Completed 302 Found in 236ms (ActiveRecord: 1.6ms | Allocations: 1025)
+
+
+Started GET "/dashboard" for 127.0.0.1 at 2021-08-02 03:52:08 +0700
+Processing by UsersController#dashboard as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/dashboard.html.erb within layouts/application
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:4:in `current_user'
+  Rendered users/dashboard.html.erb within layouts/application (Duration: 3.2ms | Allocations: 888)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 4463)
+Completed 200 OK in 12ms (Views: 9.5ms | ActiveRecord: 1.1ms | Allocations: 5079)
+
+
