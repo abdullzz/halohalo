@@ -5,13 +5,31 @@ class UsersController < ApplicationController
   end
 
   def update
-    @user = current_user
-    params.permit!
-    if @user.update_attribute(:phone_number, params[:edit_user][:phone_number]) && @user.update_attribute(:username, params[:edit_user][:username])
-      flash[:notice] = "User updated successfully"
-      current_user = @user
-      redirect_to "/user/profile/"
+    if params.has_key?(:edit_user)
+      @user = current_user
+      params.permit!
+      if @user.update_attribute(:phone_number, params[:edit_user][:phone_number]) && @user.update_attribute(:username, params[:edit_user][:username])
+        flash[:notice] = "User updated successfully"
+        current_user = @user
+        redirect_to "/user/profile/"
+      end
     end
+  end
+
+  def password
+    @user = current_user
+    if params.has_key?(:edit_password)
+      if params[:edit_password][:password] == params[:edit_password][:password_confirmation]
+        @user.update_attribute(:password, params[:edit_password][:password])
+        flash[:notice] = "Your password has been changed"
+        current_user = @user
+        redirect_to "/user/profile/"
+      else
+        flash[:error] = "New password and Confirmation password do not match"
+        redirect_to "/user/profile/"
+      end
+    end
+    # redirect_to "/user/profile/"
   end
 
   def dashboard
