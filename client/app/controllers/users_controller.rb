@@ -1,6 +1,16 @@
 class UsersController < ApplicationController
   def profile
     is_authenticated?
+    @user = current_user
+  end
+
+  def update
+    @user = current_user
+    params.permit!
+    if @user.update_attribute(:phone_number, params[:edit_user][:phone_number])
+      flash[:notice] = "User updated successfully"
+      redirect_to "/user/profile/"
+    end
   end
 
   def dashboard
@@ -23,6 +33,10 @@ class UsersController < ApplicationController
 
   def user_params
     params.require(:user).permit(:username, :phone_number, :password)
+  end
+
+  def user_update_params
+    params.permit(:username, :phone_number)
   end
 
   def is_authenticated?
