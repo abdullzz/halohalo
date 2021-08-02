@@ -7,8 +7,9 @@ class UsersController < ApplicationController
   def update
     @user = current_user
     params.permit!
-    if @user.update_attribute(:phone_number, params[:edit_user][:phone_number])
+    if @user.update_attribute(:phone_number, params[:edit_user][:phone_number]) && @user.update_attribute(:username, params[:edit_user][:username])
       flash[:notice] = "User updated successfully"
+      current_user = @user
       redirect_to "/user/profile/"
     end
   end
