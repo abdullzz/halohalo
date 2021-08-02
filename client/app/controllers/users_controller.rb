@@ -23,11 +23,10 @@ class UsersController < ApplicationController
         @user.update_attribute(:password, params[:edit_password][:password])
         flash[:notice] = "Your password has been changed"
         current_user = @user
-        redirect_to "/user/profile/"
       else
         flash[:error] = "New password and Confirmation password do not match"
-        redirect_to "/user/profile/"
       end
+      redirect_to "/user/profile/"
     end
     # redirect_to "/user/profile/"
   end

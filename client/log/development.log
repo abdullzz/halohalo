@@ -12489,3 +12489,59 @@ Processing by UsersController#profile as HTML
 Completed 200 OK in 16ms (Views: 11.4ms | ActiveRecord: 1.3ms | Allocations: 6336)
 
 
+Started POST "/user/profile/update" for 127.0.0.1 at 2021-08-02 19:30:25 +0700
+Processing by UsersController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "edit_user"=>{"username"=>"abdul", "phone_number"=>"666"}, "commit"=>"Apply Changes"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:4:in `current_user'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:11:in `update'
+  [1m[36mUser Update (1.3ms)[0m  [1m[33mUPDATE `users` SET `users`.`phone_number` = '666', `users`.`updated_at` = '2021-08-02 12:30:25.729305' WHERE `users`.`id` = 3[0m
+  ↳ app/controllers/users_controller.rb:11:in `update'
+  [1m[36mTRANSACTION (7.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:11:in `update'
+Redirected to http://127.0.0.1:3000/user/profile/
+Completed 302 Found in 33ms (ActiveRecord: 15.8ms | Allocations: 7921)
+
+
+Started GET "/user/profile/" for 127.0.0.1 at 2021-08-02 19:30:25 +0700
+Processing by UsersController#profile as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:4:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering users/profile.html.erb within layouts/application
+  Rendered users/profile.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1456)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 50)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 5062)
+Completed 200 OK in 13ms (Views: 9.4ms | ActiveRecord: 1.0ms | Allocations: 6337)
+
+
+Started POST "/user/profile/password" for 127.0.0.1 at 2021-08-02 19:30:30 +0700
+Processing by UsersController#password as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "edit_password"=>"[FILTERED]", "commit"=>"Change Password"}
+  [1m[36mUser Load (4.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:4:in `current_user'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:23:in `password'
+  [1m[36mUser Update (1.1ms)[0m  [1m[33mUPDATE `users` SET `users`.`password_digest` = '$2a$12$bn6RDz3Dt0.4U0ZSiS1Mc.wdJKdApT1sgI6/bekTjxT/OZs/PYbXW', `users`.`updated_at` = '2021-08-02 12:30:31.216092' WHERE `users`.`id` = 3[0m
+  ↳ app/controllers/users_controller.rb:23:in `password'
+  [1m[36mTRANSACTION (7.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:23:in `password'
+Redirected to http://127.0.0.1:3000/user/profile/
+Completed 302 Found in 284ms (ActiveRecord: 13.9ms | Allocations: 3260)
+
+
+Started GET "/user/profile/" for 127.0.0.1 at 2021-08-02 19:30:31 +0700
+Processing by UsersController#profile as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:4:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering users/profile.html.erb within layouts/application
+  Rendered users/profile.html.erb within layouts/application (Duration: 1.5ms | Allocations: 916)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 49)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 4519)
+Completed 200 OK in 9ms (Views: 6.5ms | ActiveRecord: 1.2ms | Allocations: 5642)
+
+
