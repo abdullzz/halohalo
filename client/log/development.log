@@ -7844,3 +7844,609 @@ Processing by SessionController#login as HTML
 Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 4486)
 
 
+Started GET "/register" for 127.0.0.1 at 2021-08-02 06:39:29 +0700
+Processing by UsersController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/register.html.erb within layouts/application
+  Rendered users/register.html.erb within layouts/application (Duration: 6.3ms | Allocations: 1272)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.7ms | Allocations: 242)
+  Rendered layout layouts/application.html.erb (Duration: 15.3ms | Allocations: 5445)
+Completed 200 OK in 23ms (Views: 19.5ms | ActiveRecord: 0.0ms | Allocations: 6695)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-02 06:39:31 +0700
+Processing by SessionController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 2.4ms | Allocations: 769)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 4354)
+Completed 200 OK in 15ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 5370)
+
+
+Started GET "/register" for 127.0.0.1 at 2021-08-02 06:39:38 +0700
+Processing by UsersController#register as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/register.html.erb within layouts/application
+  Rendered users/register.html.erb within layouts/application (Duration: 3.9ms | Allocations: 822)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 4409)
+Completed 200 OK in 18ms (Views: 14.7ms | ActiveRecord: 0.0ms | Allocations: 4903)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-02 06:39:42 +0700
+Processing by SessionController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 3.9ms | Allocations: 392)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 17.2ms | Allocations: 3977)
+Completed 200 OK in 21ms (Views: 19.0ms | ActiveRecord: 0.0ms | Allocations: 4455)
+
+
+Started POST "/login" for 127.0.0.1 at 2021-08-02 06:39:47 +0700
+Processing by SessionController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "session"=>{"username"=>"abdul", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`username` = 'abdul' LIMIT 1[0m
+  ↳ app/controllers/session_controller.rb:23:in `create'
+Redirected to http://127.0.0.1:3000/user/dashboard
+Completed 302 Found in 239ms (ActiveRecord: 1.6ms | Allocations: 994)
+
+
+Started GET "/user/dashboard" for 127.0.0.1 at 2021-08-02 06:39:47 +0700
+Processing by UsersController#dashboard as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/dashboard.html.erb within layouts/application
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:4:in `current_user'
+  Rendered users/dashboard.html.erb within layouts/application (Duration: 3.1ms | Allocations: 883)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 49)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 4488)
+Completed 200 OK in 9ms (Views: 7.1ms | ActiveRecord: 1.4ms | Allocations: 5104)
+
+
+Started GET "/user/profile" for 127.0.0.1 at 2021-08-02 06:39:57 +0700
+Processing by UsersController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/profile.html.erb within layouts/application
+  Rendered users/profile.html.erb within layouts/application (Duration: 0.6ms | Allocations: 118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:4:in `current_user'
+  Rendered layouts/_navbar.html.erb (Duration: 3.3ms | Allocations: 786)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 4447)
+Completed 200 OK in 15ms (Views: 11.6ms | ActiveRecord: 1.5ms | Allocations: 5055)
+
+
+Started GET "/user/profile" for 127.0.0.1 at 2021-08-02 06:43:40 +0700
+Processing by UsersController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/profile.html.erb within layouts/application
+  Rendered users/profile.html.erb within layouts/application (Duration: 3.3ms | Allocations: 2945)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:4:in `current_user'
+  Rendered layouts/_navbar.html.erb (Duration: 3.5ms | Allocations: 982)
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 7761)
+Completed 200 OK in 17ms (Views: 14.9ms | ActiveRecord: 1.2ms | Allocations: 8990)
+
+
+Started GET "/user/profile" for 127.0.0.1 at 2021-08-02 06:44:14 +0700
+Processing by UsersController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/profile.html.erb within layouts/application
+  Rendered users/profile.html.erb within layouts/application (Duration: 5.4ms | Allocations: 2447)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:4:in `current_user'
+  Rendered layouts/_navbar.html.erb (Duration: 4.2ms | Allocations: 982)
+  Rendered layout layouts/application.html.erb (Duration: 17.6ms | Allocations: 7261)
+Completed 200 OK in 22ms (Views: 18.5ms | ActiveRecord: 1.5ms | Allocations: 8494)
+
+
+Started GET "/user/profile" for 127.0.0.1 at 2021-08-02 06:44:29 +0700
+Processing by UsersController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/profile.html.erb within layouts/application
+  Rendered users/profile.html.erb within layouts/application (Duration: 5.6ms | Allocations: 4534)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:4:in `current_user'
+  Rendered layouts/_navbar.html.erb (Duration: 4.5ms | Allocations: 982)
+  Rendered layout layouts/application.html.erb (Duration: 18.9ms | Allocations: 9348)
+Completed 200 OK in 22ms (Views: 19.4ms | ActiveRecord: 1.6ms | Allocations: 10577)
+
+
+Started GET "/user/profile" for 127.0.0.1 at 2021-08-02 06:45:40 +0700
+Processing by UsersController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/profile.html.erb within layouts/application
+  Rendered users/profile.html.erb within layouts/application (Duration: 8.1ms | Allocations: 4481)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:4:in `current_user'
+  Rendered layouts/_navbar.html.erb (Duration: 4.0ms | Allocations: 985)
+  Rendered layout layouts/application.html.erb (Duration: 28.3ms | Allocations: 9299)
+Completed 200 OK in 34ms (Views: 30.0ms | ActiveRecord: 1.4ms | Allocations: 10528)
+
+
+Started GET "/user/profile" for 127.0.0.1 at 2021-08-02 06:46:04 +0700
+Processing by UsersController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/profile.html.erb within layouts/application
+  Rendered users/profile.html.erb within layouts/application (Duration: 5.4ms | Allocations: 4529)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:4:in `current_user'
+  Rendered layouts/_navbar.html.erb (Duration: 4.3ms | Allocations: 982)
+  Rendered layout layouts/application.html.erb (Duration: 18.9ms | Allocations: 9346)
+Completed 200 OK in 23ms (Views: 20.0ms | ActiveRecord: 1.6ms | Allocations: 10580)
+
+
+Started GET "/user/profile" for 127.0.0.1 at 2021-08-02 06:46:10 +0700
+Processing by UsersController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/profile.html.erb within layouts/application
+  Rendered users/profile.html.erb within layouts/application (Duration: 4.3ms | Allocations: 4526)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:4:in `current_user'
+  Rendered layouts/_navbar.html.erb (Duration: 3.8ms | Allocations: 982)
+  Rendered layout layouts/application.html.erb (Duration: 15.1ms | Allocations: 9340)
+Completed 200 OK in 18ms (Views: 15.7ms | ActiveRecord: 1.3ms | Allocations: 10573)
+
+
+Started GET "/user/profile" for 127.0.0.1 at 2021-08-02 06:46:12 +0700
+Processing by UsersController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/profile.html.erb within layouts/application
+  Rendered users/profile.html.erb within layouts/application (Duration: 5.3ms | Allocations: 4069)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:4:in `current_user'
+  Rendered layouts/_navbar.html.erb (Duration: 3.4ms | Allocations: 784)
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 8297)
+Completed 200 OK in 18ms (Views: 15.3ms | ActiveRecord: 1.5ms | Allocations: 8775)
+
+
+Started GET "/user/profile" for 127.0.0.1 at 2021-08-02 06:46:13 +0700
+Processing by UsersController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/profile.html.erb within layouts/application
+  Rendered users/profile.html.erb within layouts/application (Duration: 6.6ms | Allocations: 4060)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:4:in `current_user'
+  Rendered layouts/_navbar.html.erb (Duration: 3.5ms | Allocations: 784)
+  Rendered layout layouts/application.html.erb (Duration: 18.1ms | Allocations: 8288)
+Completed 200 OK in 21ms (Views: 17.7ms | ActiveRecord: 1.7ms | Allocations: 8765)
+
+
+Started GET "/user/profile" for 127.0.0.1 at 2021-08-02 06:47:42 +0700
+Processing by UsersController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/profile.html.erb within layouts/application
+  Rendered users/profile.html.erb within layouts/application (Duration: 6.0ms | Allocations: 4544)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:4:in `current_user'
+  Rendered layouts/_navbar.html.erb (Duration: 3.3ms | Allocations: 982)
+  Rendered layout layouts/application.html.erb (Duration: 22.8ms | Allocations: 9358)
+Completed 200 OK in 27ms (Views: 23.9ms | ActiveRecord: 1.2ms | Allocations: 10588)
+
+
+Started GET "/user/profile" for 127.0.0.1 at 2021-08-02 06:48:00 +0700
+Processing by UsersController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/profile.html.erb within layouts/application
+  Rendered users/profile.html.erb within layouts/application (Duration: 6.5ms | Allocations: 4558)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:4:in `current_user'
+  Rendered layouts/_navbar.html.erb (Duration: 4.2ms | Allocations: 982)
+  Rendered layout layouts/application.html.erb (Duration: 18.8ms | Allocations: 9374)
+Completed 200 OK in 22ms (Views: 19.3ms | ActiveRecord: 1.5ms | Allocations: 10603)
+
+
+Started GET "/user/profile" for 127.0.0.1 at 2021-08-02 06:51:11 +0700
+Processing by UsersController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/profile.html.erb within layouts/application
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:4:in `current_user'
+  Rendered users/profile.html.erb within layouts/application (Duration: 10.5ms | Allocations: 5273)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.7ms | Allocations: 247)
+  Rendered layout layouts/application.html.erb (Duration: 19.2ms | Allocations: 9352)
+Completed 200 OK in 25ms (Views: 20.9ms | ActiveRecord: 1.7ms | Allocations: 10585)
+
+
+Started GET "/user/profile" for 127.0.0.1 at 2021-08-02 06:51:28 +0700
+Processing by UsersController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/profile.html.erb within layouts/application
+  [1m[36mUser Load (2.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:4:in `current_user'
+  Rendered users/profile.html.erb within layouts/application (Duration: 13.1ms | Allocations: 5280)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.8ms | Allocations: 247)
+  Rendered layout layouts/application.html.erb (Duration: 26.4ms | Allocations: 9359)
+Completed 200 OK in 31ms (Views: 26.7ms | ActiveRecord: 2.1ms | Allocations: 10588)
+
+
+Started GET "/user/profile" for 127.0.0.1 at 2021-08-02 06:52:18 +0700
+Processing by UsersController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/profile.html.erb within layouts/application
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:4:in `current_user'
+  Rendered users/profile.html.erb within layouts/application (Duration: 7.4ms | Allocations: 4821)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 49)
+  Rendered layout layouts/application.html.erb (Duration: 13.3ms | Allocations: 8315)
+Completed 200 OK in 15ms (Views: 12.5ms | ActiveRecord: 1.6ms | Allocations: 8793)
+
+
+Started GET "/logout" for 127.0.0.1 at 2021-08-02 06:52:21 +0700
+Processing by SessionController#destroy as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms | Allocations: 307)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-02 06:52:21 +0700
+Processing by SessionController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 1.9ms | Allocations: 774)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 4373)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 5398)
+
+
+Started GET "/user/profile" for 127.0.0.1 at 2021-08-02 06:52:31 +0700
+Processing by UsersController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/profile.html.erb within layouts/application
+  Rendered users/profile.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1819)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 1919)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2366)
+
+
+  
+ActionView::Template::Error (undefined method `username' for nil:NilClass):
+    88: 		<h2>Edit User</h2>
+    89: 		<div class="form-group">
+    90: 			<%= f.label :username %><br/>
+    91: 			<%= f.text_field :username, class: "form-control", value: current_user.username %>
+    92: 		</div>
+    93: 		
+    94: 		<div class="form-group">
+  
+app/views/users/profile.html.erb:91
+app/views/users/profile.html.erb:87
+Started GET "/user/profile" for 127.0.0.1 at 2021-08-02 06:54:59 +0700
+Processing by UsersController#profile as HTML
+Redirected to http://127.0.0.1:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 301)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-02 06:54:59 +0700
+Processing by SessionController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 1.1ms | Allocations: 400)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 4001)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 4640)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-02 07:05:49 +0700
+Processing by SessionController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 2.2ms | Allocations: 400)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 3967)
+Completed 200 OK in 14ms (Views: 13.1ms | Allocations: 4600)
+
+
+Started GET "/user/dashboard" for 127.0.0.1 at 2021-08-02 07:05:56 +0700
+Processing by UsersController#dashboard as HTML
+Completed 500 Internal Server Error in 10ms (Allocations: 2347)
+
+
+  
+NoMethodError (undefined method `before_action' for #<UsersController:0x00562a9260edf8>):
+  
+app/controllers/users_controller.rb:7:in `dashboard'
+Started GET "/user/dashboard" for 127.0.0.1 at 2021-08-02 07:06:11 +0700
+Processing by UsersController#dashboard as HTML
+Completed 500 Internal Server Error in 10ms (Allocations: 2348)
+
+
+  
+NoMethodError (undefined method `before_action' for #<UsersController:0x007f723c501058>):
+  
+app/controllers/users_controller.rb:7:in `dashboard'
+Started GET "/user/dashboard" for 127.0.0.1 at 2021-08-02 07:06:12 +0700
+Processing by UsersController#dashboard as HTML
+Completed 500 Internal Server Error in 11ms (Allocations: 2343)
+
+
+  
+NoMethodError (undefined method `before_action' for #<UsersController:0x007f7231af9420>):
+  
+app/controllers/users_controller.rb:7:in `dashboard'
+Started GET "/user/dashboard" for 127.0.0.1 at 2021-08-02 07:06:23 +0700
+Processing by UsersController#dashboard as HTML
+Redirected to http://127.0.0.1:3000/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 2ms (Allocations: 376)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-02 07:06:23 +0700
+Processing by SessionController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 2.1ms | Allocations: 400)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 4001)
+Completed 200 OK in 11ms (Views: 9.9ms | Allocations: 4639)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-02 07:08:06 +0700
+Processing by SessionController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 1.6ms | Allocations: 400)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 3967)
+Completed 200 OK in 17ms (Views: 15.9ms | Allocations: 4600)
+
+
+Started GET "/user/dashboard" for 127.0.0.1 at 2021-08-02 07:08:14 +0700
+Processing by UsersController#dashboard as HTML
+Redirected to http://127.0.0.1:3000/login
+Completed 302 Found in 1ms (Allocations: 298)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-02 07:08:14 +0700
+Processing by SessionController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 1.0ms | Allocations: 392)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 3990)
+Completed 200 OK in 9ms (Views: 8.5ms | Allocations: 4476)
+
+
+Started GET "/user/dashboard" for 127.0.0.1 at 2021-08-02 07:10:52 +0700
+Processing by UsersController#dashboard as HTML
+Redirected to http://127.0.0.1:3000/login
+Completed 302 Found in 1ms (Allocations: 301)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-02 07:10:52 +0700
+Processing by SessionController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 1.9ms | Allocations: 400)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 4001)
+Completed 200 OK in 9ms (Views: 7.9ms | Allocations: 4639)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-02 07:10:55 +0700
+Processing by SessionController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 1.3ms | Allocations: 392)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 3977)
+Completed 200 OK in 9ms (Views: 8.2ms | Allocations: 4454)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-02 07:13:26 +0700
+Processing by SessionController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 2.6ms | Allocations: 774)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 242)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 4956)
+Completed 200 OK in 15ms (Views: 13.5ms | Allocations: 6190)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-02 07:13:27 +0700
+Processing by SessionController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 2.5ms | Allocations: 399)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 3985)
+Completed 200 OK in 14ms (Views: 12.1ms | Allocations: 4463)
+
+
+Started GET "/user/dashboard" for 127.0.0.1 at 2021-08-02 07:13:31 +0700
+Processing by UsersController#dashboard as HTML
+Redirected to http://127.0.0.1:3000/login
+Completed 302 Found in 1ms (Allocations: 295)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-02 07:13:31 +0700
+Processing by SessionController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 1.1ms | Allocations: 392)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 3994)
+Completed 200 OK in 9ms (Views: 7.9ms | Allocations: 4479)
+
+
+Started GET "/user/dashboard" for 127.0.0.1 at 2021-08-02 07:13:38 +0700
+Processing by UsersController#dashboard as HTML
+Redirected to http://127.0.0.1:3000/login
+Completed 302 Found in 1ms (Allocations: 295)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-02 07:13:38 +0700
+Processing by SessionController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 1.2ms | Allocations: 392)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 3992)
+Completed 200 OK in 9ms (Views: 7.9ms | Allocations: 4477)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-02 07:13:39 +0700
+Processing by SessionController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 1.6ms | Allocations: 392)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 3977)
+Completed 200 OK in 10ms (Views: 9.5ms | Allocations: 4454)
+
+
+Started GET "/user/dashboard" for 127.0.0.1 at 2021-08-02 07:13:51 +0700
+Processing by UsersController#dashboard as HTML
+Redirected to http://127.0.0.1:3000/login
+Completed 302 Found in 1ms (Allocations: 295)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-02 07:13:51 +0700
+Processing by SessionController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 1.2ms | Allocations: 392)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 3992)
+Completed 200 OK in 10ms (Views: 9.2ms | Allocations: 4477)
+
+
+Started GET "/user/dashboard" for 127.0.0.1 at 2021-08-02 07:15:54 +0700
+Processing by UsersController#dashboard as HTML
+Redirected to http://127.0.0.1:3000/login
+Completed 302 Found in 1ms (Allocations: 295)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-02 07:15:54 +0700
+Processing by SessionController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 1.8ms | Allocations: 772)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 242)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 5015)
+Completed 200 OK in 13ms (Views: 11.5ms | Allocations: 6257)
+
+
+Started POST "/login" for 127.0.0.1 at 2021-08-02 07:16:01 +0700
+Processing by SessionController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "session"=>{"username"=>"abdul", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`username` = 'abdul' LIMIT 1[0m
+  ↳ app/controllers/session_controller.rb:23:in `create'
+Redirected to http://127.0.0.1:3000/user/dashboard
+Completed 302 Found in 270ms (ActiveRecord: 8.7ms | Allocations: 11132)
+
+
+Started GET "/user/dashboard" for 127.0.0.1 at 2021-08-02 07:16:01 +0700
+Processing by UsersController#dashboard as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:4:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering users/dashboard.html.erb within layouts/application
+  Rendered users/dashboard.html.erb within layouts/application (Duration: 0.6ms | Allocations: 176)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 49)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 3782)
+Completed 200 OK in 10ms (Views: 6.8ms | ActiveRecord: 0.8ms | Allocations: 5559)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-02 07:16:05 +0700
+Processing by SessionController#login as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:4:in `current_user'
+Redirected to http://127.0.0.1:3000/user/dashboard
+Completed 302 Found in 4ms (ActiveRecord: 1.2ms | Allocations: 911)
+
+
+Started GET "/user/dashboard" for 127.0.0.1 at 2021-08-02 07:16:05 +0700
+Processing by UsersController#dashboard as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:4:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering users/dashboard.html.erb within layouts/application
+  Rendered users/dashboard.html.erb within layouts/application (Duration: 0.1ms | Allocations: 48)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 49)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 3639)
+Completed 200 OK in 11ms (Views: 7.5ms | ActiveRecord: 1.1ms | Allocations: 4751)
+
+
+Started GET "/user/dashboard" for 127.0.0.1 at 2021-08-02 07:16:06 +0700
+Processing by UsersController#dashboard as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:4:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering users/dashboard.html.erb within layouts/application
+  Rendered users/dashboard.html.erb within layouts/application (Duration: 0.2ms | Allocations: 48)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 49)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 3639)
+Completed 200 OK in 10ms (Views: 7.0ms | ActiveRecord: 1.1ms | Allocations: 4750)
+
+
+Started GET "/logout" for 127.0.0.1 at 2021-08-02 07:16:10 +0700
+Processing by SessionController#destroy as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 308)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-02 07:16:10 +0700
+Processing by SessionController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 1.5ms | Allocations: 399)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 4001)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 4487)
+
+
+Started GET "/user/dashboard" for 127.0.0.1 at 2021-08-02 07:16:28 +0700
+Processing by UsersController#dashboard as HTML
+Redirected to http://127.0.0.1:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 295)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-02 07:16:28 +0700
+Processing by SessionController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering session/login.html.erb within layouts/application
+  Rendered session/login.html.erb within layouts/application (Duration: 1.2ms | Allocations: 392)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 3993)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 4478)
+
+
