@@ -92,7 +92,7 @@ body {
 		<% end %>
 </div>
 <div class="signup-form">
-		<%= form_for :edit_password,:url=>{:controller=>"users",:action=>"update"} do |f| %>
+		<%= form_for :edit_password,:url=>{:controller=>"users",:action=>"password"} do |f| %>
 		<h2>Change Password</h2>
 		<div class="form-group">
 			<%= f.label "new password" %><br/>
